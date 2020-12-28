@@ -6,7 +6,7 @@
     </h3>
           <br />
         <p>
-       &bull; You can explore these visualizations further at my <a href="https://public.tableau.com/profile/jason.scharf#!/"> Tableau Public Profile.</a>
+       &bull; You can explore these visualizations further at my <a href="https://public.tableau.com/profile/jason.scharf#!/" target="_blank"> Tableau Public Profile.</a>
       </p>
       <br />
 

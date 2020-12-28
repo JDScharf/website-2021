@@ -134,7 +134,7 @@
           <br />
           &bull; Code can be found at:
           <a href="www.github.com/JDScharf/Stonethrowers"
-            >github.com/JDScharf/Stonethrowers</a
+            target="_blank">github.com/JDScharf/Stonethrowers</a
           ><br /><br />
         </p>
       </v-col>
@@ -173,12 +173,12 @@
           from a mock API. <br />
           &bull; App can be tested at:
           <a href="https://signal-vuetify.herokuapp.com/RegisterUser"
-            >signal-vuetify.herokuapp.com</a
+            target="_blank">signal-vuetify.herokuapp.com</a
           >
           <br />
           &bull; Code can be found at:
           <a href="www.github.com/JDScharf/vue-app"
-            >github.com/JDScharf/vue-app</a
+            target="_blank">github.com/JDScharf/vue-app</a
           >
         </p>
       </v-col>
@@ -210,7 +210,7 @@
           &bull; Code can be found at:
           <a
             href="https://github.com/code-for-syracuse/CitizensReviewBoardChatBot"
-            >github.com/code-for-syracuse/CitizensReviewBoardChatBot</a
+            target="_blank">github.com/code-for-syracuse/CitizensReviewBoardChatBot</a
           ><br /><br />
         </p>
         <v-img
