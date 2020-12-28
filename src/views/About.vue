@@ -1,14 +1,21 @@
 <template>
   <v-col class="mb-4">
-    <h1 class="display-2 font-weight-bold mb-3">
+    <h3 class="heading-viz">
       Tableau Data Viz
-    </h1>
+      <br />
+    </h3>
+          <br />
+        <p>
+       &bull; You can explore these visualizations further at my <a href="https://public.tableau.com/profile/jason.scharf#!/"> Tableau Public Profile.</a>
+      </p>
+      <br />
 
     <v-carousel :show-arrows="false" cycle height="700">
       <v-carousel-item v-for="(item, i) in items" :key="i">
         <img :src="item.src"
       /></v-carousel-item>
     </v-carousel>
+
   </v-col>
 </template>
 
@@ -48,3 +55,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.heading-viz {
+  color: #10696B;
+  font-size: 40px;
+}
+</style>

@@ -2,23 +2,22 @@
   <v-container>
     <v-row class="text-left">
       <v-col class="text-left">
-        <h1 class="text-left">
+        <h1 class="heading-name">
           Jason Scharf
         </h1>
         <br />
-        <br />
 
-        <h3 class="display1 font-weight-bold">
+        <h2 class="heading-job-title">
           Civic Technologist
           <br />
           <br />
-        </h3>
+        </h2>
 
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           jasonscharf3@gmail.com | (315) 447-4501
           <br />
           <br />
-        </h4>
+        </h3>
 
         <p class="subheading font-weight-regular">
           I am a hard worker, who enjoys learning and facing new challenges. I
@@ -43,15 +42,15 @@
 
     <v-row>
       <v-col>
-        <h3 class="display1 font-weight-bold">Experience</h3>
+        <h2 class="heading-2">Experience</h2>
         <br />
         <br />
 
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           Onondaga County Dept. of Child & Family Services, Syracuse, NY —
           Caseworker
-        </h4>
-        <h5>
+        </h3>
+        <h5 class = "heading-5">
           February 2012 - Present <br />
           <br />
         </h5>
@@ -65,11 +64,11 @@
 
     <v-row>
       <v-col>
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           Hack Upsate - Caereers in Code Bootcamp, Syracuse, NY — Student
           Success Coordinator
-        </h4>
-        <h5>
+        </h3>
+        <h5 class = "heading-5">
           February 2019 - Present
           <br />
           <br />
@@ -85,14 +84,14 @@
 
     <v-row>
       <v-col>
-        <h3 class="display1 font-weight-bold">Education</h3>
+        <h2 class="heading-2">Education</h2>
         <br />
         <br />
 
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           Easter Gateway Community College
-        </h4>
-        <h5>
+        </h3>
+        <h5 class="heading-5">
           Spring 2020 - Present <br />
           <br />
         </h5>
@@ -106,9 +105,9 @@
 
     <v-row>
       <v-col>
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           Roberts Wesleyan College, BA Religion and Philosophy
-        </h4>
+        </h3>
 
         <p>
           &bull; Coursework included Logic, Calculus, Physics, Writing, and
@@ -119,15 +118,15 @@
 
     <v-row>
       <v-col>
-        <h3 class="display1 font-weight-bold">Projects</h3>
+        <h2 class="heading-2">Projects</h2>
         <br />
         <br />
 
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           Stonethrowers of Syracuse Video Game — C#/Unity3D Project
           <br />
           <br />
-        </h4>
+        </h3>
 
         <p>
           &bull; Created a functioning video game with Unity’s video game engine
@@ -161,11 +160,11 @@
 
     <v-row>
       <v-col>
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           Salt City Security - Vue.JS App
           <br />
           <br />
-        </h4>
+        </h3>
 
         <p>
           &bull; Created an App to register Users, authenticate their login
@@ -179,28 +178,29 @@
           &bull; Code can be found at:
           <a href="www.github.com/JDScharf/vue-app"
             >github.com/JDScharf/vue-app</a
-          ><br /><br />
+          >
         </p>
       </v-col>
     </v-row>
+    
     <v-row>
       <v-col>
         <v-img
           :src="require('../assets/Salt-City.png')"
           class="my-3"
           contain
-          height="550"
+          height="500"
         />
       </v-col>
     </v-row>
 
     <v-row>
       <v-col>
-        <h4 class="display1 font-weight-bold">
+        <h3 class="heading-3">
           Police Officer Complaint Chatbot — Twilio and Javascript
           <br />
           <br />
-        </h4>
+        </h3>
 
         <p>
           &bull; Helped develop a beta chatbot that would assist individuals who
@@ -236,4 +236,29 @@
   border: 1px solid rgb(1, 2, 1);
   max-width: 100px;
 }
+
+.heading-name {
+  color: #9A293D;
+  font-size: 50px;
+}
+
+.heading-2 {
+  color: #9A293D;
+  font-size: 40px;
+}
+
+.heading-3 {
+  color: #10696B;
+  font-size: 30px;
+}
+
+.heading-4 {
+  color: #10696B;
+  font-size: 25px;
+}
+.heading-5 {
+  color: #10696B;
+  font-size: 20px;
+}
+
 </style>
