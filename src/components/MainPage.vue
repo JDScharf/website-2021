@@ -108,6 +108,7 @@
         <h3 class="heading-3">
           Roberts Wesleyan College, BA Religion and Philosophy
         </h3>
+        <br />
 
         <p>
           &bull; Coursework included Logic, Calculus, Physics, Writing, and
@@ -240,6 +241,11 @@
 .heading-name {
   color: #9A293D;
   font-size: 50px;
+}
+
+.heading-job-title {
+  color: #2c3e50;
+  font-size: 35px;
 }
 
 .heading-2 {
