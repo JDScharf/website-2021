@@ -208,7 +208,7 @@
           <br />
 
     <div class = "text-center">
-          <v-btn href="sms:+3152848090&body=Hi"
+          <v-btn href="sms:3152848090?&body=Hi"
   depressed
   elevation="10"
   color="primary"
