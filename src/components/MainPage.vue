@@ -1,45 +1,46 @@
 <template>
   <v-container>
-    <v-row class="text-left">
-      <v-col class="text-left">
+    <v-row>
+          <v-col class="text-left">
+       
+          <v-card max-width="350" id="rounded-card">
+          <v-img
+            :src="require('../assets/jason.jpg')"
+            class="my-3"
+            contain
+            height="400"
+            padding-left="50px"
+          />
+        </v-card>
+        <br />
+        </v-col>
+
+      <v-col class="text-right">
         <h1 class="heading-name">
           Jason Scharf
         </h1>
         <br />
-
         <h2 class="heading-job-title">
           Civic Technologist
         </h2>
         <br />
-
-        <h3 class="heading-3">
+        <h3 class="subheading font-weight-regular">
+          I am a hard worker, who enjoys learning and facing new challenges. I
+          am skilled at managing multiple projects, meeting deadlines, while
+          always striving to provide excellent service. Through college courses
+          and volunteer work, I have been improving my skills in data analysis
+          and software development.
+        </h3>
+        <br />
+          <h6 class="heading-4">
           <a href="mailto:jasonscharf3@gmail.com">
           jasonscharf3@gmail.com</a>
 |
           <a href="sms:3154474501">
 (315) 447-4501
   </a>
-        </h3>
+        </h6>
                  <br />
-
-        <p class="subheading font-weight-regular">
-          I am a hard worker, who enjoys learning and facing new challenges. I
-          am skilled at managing multiple projects, meeting deadlines, while
-          always striving to provide excellent service. Through college courses
-          and volunteer work, I have been improving my skills in data analysis
-          and software development.
-        </p>
-      </v-col>
-
-      <v-col>
-        <v-card max-width="350" id="rounded-card">
-          <v-img
-            :src="require('../assets/jason.jpg')"
-            class="my-3"
-            contain
-            height="400"
-          />
-        </v-card>
       </v-col>
     </v-row>
 
@@ -89,7 +90,7 @@
         <br />
 
         <h3 class="heading-3">
-          Easter Gateway Community College
+          Eastern Gateway Community College
         </h3>
         <h5 class="heading-5">
           Spring 2020 - Present
@@ -138,10 +139,16 @@
       </v-col>
     </v-row>
 
+    <div class="game-container">
     <iframe
       src="https://i.simmer.io/@JDScharf/stonethrowers-of-syracuse"
-      style="width:960px;height:600px;border:0"
+      style="position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;"
     ></iframe>
+    </div>
     <v-row>
       <v-col>
         <p>
@@ -188,7 +195,7 @@
           :src="require('../assets/Salt-City.png')"
           class="my-3"
           contain
-          height="500"
+          width="100%"
         /></a>
       </v-col>
     </v-row>
@@ -196,7 +203,7 @@
     <v-row>
       <v-col>
         <h3 class="heading-3">
-          Police Officer Complaint Chatbot — Twilio and Javascript
+          Police Officer Complaint Chatbot — Twilio & Javascript
         </h3>
           <br />
         <p>
@@ -227,6 +234,44 @@ Test Chatbot
                   <br />
         <v-img
           :src="require('../assets/android-phone.png')"
+          class="my-3"
+          contain
+          height="750"
+        />
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
+          Data Visualization Projects - Tableau & R Programming
+        </h3>
+          <br />
+        <p>
+          &bull; Created data visualization and analysis projects using publicly available data sources. <br />
+
+          &bull; My Tableau public profile can be viewed here:
+          <a
+            href="https://public.tableau.com/profile/jason.scharf#!/" target="_blank"> Tableau Profile.</a>
+        </p>
+        <br />
+
+    <div class = "text-button">
+     <!--  <router-link to="/about">Data Visualization</router-link> -->
+          <v-btn router-link to="/about"
+  depressed
+  elevation="10"
+  color="#7EB4B3"
+  raised
+  rounded
+  dark
+  >
+Browse Gallery
+  </v-btn>
+  </div>
+                  <br />
+        <v-img
+          :src="require('../assets/skateboard.png')"
           class="my-3"
           contain
           height="750"
@@ -281,5 +326,22 @@ Test Chatbot
 .text-button {
   color: #7EB4B3;
 }
-
+.game-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+/*
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+original video game iframe
+      style="width:960px;height:600px; border:0"
+*/
 </style>
