@@ -7,9 +7,10 @@
       class="flex"
       flat
       tile
-    >
+    >    
+    <v-card-title class="teal">
     <!--
-      <v-card-title class="teal">
+  
         <strong class="subheading">Check my social media to learn more!</strong>
 
         <v-spacer></v-spacer>
@@ -23,8 +24,9 @@
         >
           <v-icon size="24px">{{ icon }}</v-icon>
         </v-btn>
-      </v-card-title>
--->
+
+-->  
+</v-card-title>
       <v-card-text class="py-2 white--text text-center">
         {{ new Date().getFullYear() }} — <strong>Jason D Scharf Designs</strong>
       </v-card-text>
@@ -45,3 +47,9 @@
     }),
   }
 </script>
+
+<style scoped>
+.flex {
+  background: #7EB4B3;
+}
+</style>

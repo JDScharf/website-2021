@@ -212,11 +212,11 @@
           </p>
           <br />
 
-    <div class = "text-center">
+    <div class = "text-button">
           <v-btn href="sms:3152848090?&body=Hi"
   depressed
   elevation="10"
-  color="primary"
+  color="#7EB4B3"
   raised
   rounded
   dark
@@ -251,32 +251,35 @@ Test Chatbot
 }
 
 .heading-name {
-  color: #9A293D;
+  color: #2C8591;
   font-size: 50px;
 }
 
 .heading-job-title {
-  color: #2c3e50;
+  color: #7EB4B3;
   font-size: 35px;
 }
 
 .heading-2 {
-  color: #9A293D;
+  color: #7EB4B3;
   font-size: 40px;
 }
 
 .heading-3 {
-  color: #10696B;
+  color: #645E71;
   font-size: 30px;
 }
 
 .heading-4 {
-  color: #10696B;
+  color: #645E71;
   font-size: 25px;
 }
 .heading-5 {
-  color: #10696B;
+  color: #645E71;
   font-size: 20px;
+}
+.text-button {
+  color: #7EB4B3;
 }
 
 </style>

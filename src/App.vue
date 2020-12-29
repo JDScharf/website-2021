@@ -1,12 +1,11 @@
 <template>
-
-  <div
+    <div id="app">
+      <!--   <div
     id="app"
     style="
     background: #F2EEE2;
   "
-  >
-    <div id="nav">
+  > -->
       <v-card class="overflow-hidden">
         <v-app-bar
 
@@ -56,7 +55,7 @@
           <v-container style="height: 125px;"></v-container>
         </v-sheet>
       </v-card>
-    </div>
+ 
     <router-view />
   </div>
 </template>
@@ -81,15 +80,15 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet');
 
 a:link {
-  color: #10696B;
+  color: #2C8591;
 }
 
 a:visited {
-  color: #10696B;
+  color: #2C8591;
 }
 
 a:hover {
-  color: #178d8f;
+  color: #7EB4B3;
 }
 
 body {
@@ -118,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #9A293D;
+      color: #2C8591;
     }
   }
 }

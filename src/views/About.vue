@@ -15,8 +15,9 @@
         <img :src="item.src"
       /></v-carousel-item>
     </v-carousel>
-
+    <LowerFooter msg="test" />
   </v-col>
+
 </template>
 
 Search Vuetify #Carousels The v-carousel component is used to display large
@@ -31,6 +32,8 @@ can have your slides automatically transition to the next available every 6s
 controls with :show-arrows="false".
 
 <script>
+import LowerFooter from "@/components/LowerFooter.vue";
+
 export default {
   data() {
     return {
@@ -50,7 +53,10 @@ export default {
         {
           src: require("../assets/thanksgiving.png")
         }
-      ]
+      ],
+      components: {
+      LowerFooter
+  },
     };
   }
 };
@@ -58,7 +64,7 @@ export default {
 
 <style scoped>
 .heading-viz {
-  color: #10696B;
+  color: #2C8591;
   font-size: 40px;
 }
 </style>
