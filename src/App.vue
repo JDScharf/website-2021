@@ -9,6 +9,7 @@
     <div id="nav">
       <v-card class="overflow-hidden">
         <v-app-bar
+
           absolute
           shrink-on-scroll
           src="./assets/syracuse-skyline.svg"
@@ -78,6 +79,18 @@ export default {
 <style lang="scss">
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet');
+
+a:link {
+  color: #10696B;
+}
+
+a:visited {
+  color: #10696B;
+}
+
+a:hover {
+  color: #178d8f;
+}
 
 body {
   font-family: 'Work Sans', sans-serif;

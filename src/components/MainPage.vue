@@ -13,7 +13,12 @@
         <br />
 
         <h3 class="heading-3">
-          jasonscharf3@gmail.com | (315) 447-4501
+          <a href="mailto:jasonscharf3@gmail.com">
+          jasonscharf3@gmail.com</a>
+|
+          <a href="sms:3154474501">
+(315) 447-4501
+  </a>
         </h3>
                  <br />
 
