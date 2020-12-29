@@ -2,12 +2,11 @@
     <div id="app">
       <!--   <div
     id="app"
-    style="
-    background: #F2EEE2;
+    style="background: #F2EEE2;
   "
   > -->
       <v-card class="overflow-hidden">
-        <v-app-bar
+        <v-app-bar class="nav"
 
           absolute
           shrink-on-scroll
@@ -35,7 +34,7 @@
                 </v-list-item>
 
                 <v-list-item>
-                  <router-link to="/about">Data Viz Projects</router-link>
+                  <router-link to="/about">Data Visualization</router-link>
                 </v-list-item>
               </v-list-item-group>
             </v-list>
@@ -109,15 +108,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+.nav {
+  // padding: 30px;
 
   a {
     font-weight: bold;
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #2C8591;
+      color: #43d3e6;
     }
   }
 }
