@@ -10,7 +10,7 @@
       </p>
       <br />
 
-    <v-carousel :show-arrows="false" cycle height="700">
+    <v-carousel :show-arrows="false" cycle height="800" >
       <v-carousel-item v-for="(item, i) in items" :key="i">
         <img :src="item.src"
       /></v-carousel-item>
@@ -67,4 +67,13 @@ export default {
   color: #2C8591;
   font-size: 40px;
 }
+/*
+.carousel-container {
+  position: relative;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  height: 700;
+  overflow: hidden;
+}
+*/
 </style>
