@@ -9,15 +9,13 @@
 
         <h2 class="heading-job-title">
           Civic Technologist
-          <br />
-          <br />
         </h2>
+        <br />
 
         <h3 class="heading-3">
           jasonscharf3@gmail.com | (315) 447-4501
-          <br />
-          <br />
         </h3>
+                 <br />
 
         <p class="subheading font-weight-regular">
           I am a hard worker, who enjoys learning and facing new challenges. I
@@ -44,16 +42,16 @@
       <v-col>
         <h2 class="heading-2">Experience</h2>
         <br />
-        <br />
 
         <h3 class="heading-3">
           Onondaga County Dept. of Child & Family Services, Syracuse, NY —
           Caseworker
         </h3>
         <h5 class = "heading-5">
-          February 2012 - Present <br />
-          <br />
+          February 2012 - Present 
         </h5>
+        <br />
+
         <p>
           &bull; Helping ensure safety and permanency in foster care, I have
           reached 99% successful monthly contacts, surpassing federal standards
@@ -70,10 +68,8 @@
         </h3>
         <h5 class = "heading-5">
           February 2019 - Present
-          <br />
-          <br />
         </h5>
-
+          <br />
         <p>
           &bull; Made 109 successful check ins with students of
           HTML/CSS/Javascript bootcamp, helping to achieve a 92% rate of
@@ -86,15 +82,14 @@
       <v-col>
         <h2 class="heading-2">Education</h2>
         <br />
-        <br />
 
         <h3 class="heading-3">
           Easter Gateway Community College
         </h3>
         <h5 class="heading-5">
-          Spring 2020 - Present <br />
-          <br />
-        </h5>
+          Spring 2020 - Present
+        </h5>          
+        <br />
         <p>
           &bull; Coursework includes Data Wrangling & Visualization (Learning R
           “tidyverse” and Python “pandas”) and Statistical Programming.
@@ -121,22 +116,20 @@
       <v-col>
         <h2 class="heading-2">Projects</h2>
         <br />
-        <br />
 
         <h3 class="heading-3">
           Stonethrowers of Syracuse Video Game — C#/Unity3D Project
-          <br />
-          <br />
         </h3>
+          <br />
 
         <p>
           &bull; Created a functioning video game with Unity’s video game engine
           <br />
           &bull; Code can be found at:
           <a href="www.github.com/JDScharf/Stonethrowers"
-            target="_blank">github.com/JDScharf/Stonethrowers</a
-          ><br /><br />
+            target="_blank">github.com/JDScharf/Stonethrowers</a>
         </p>
+        <br />
       </v-col>
     </v-row>
 
@@ -154,7 +147,6 @@
           The goal is to break the <i class="fas fa-traffic-light"></i> and
           bring glory and honor to Ireland!
         </p>
-        <br />
         <br />
       </v-col>
     </v-row>
@@ -186,12 +178,13 @@
     
     <v-row>
       <v-col>
-        <v-img
+          <a href="https://signal-vuetify.herokuapp.com/RegisterUser"
+            target="_blank"><v-img
           :src="require('../assets/Salt-City.png')"
           class="my-3"
           contain
           height="500"
-        />
+        /></a>
       </v-col>
     </v-row>
 
@@ -199,20 +192,34 @@
       <v-col>
         <h3 class="heading-3">
           Police Officer Complaint Chatbot — Twilio and Javascript
-          <br />
-          <br />
         </h3>
-
+          <br />
         <p>
           &bull; Helped develop a beta chatbot that would assist individuals who
           wanted to report inappropriate officer behavior via text. <br />
-          &bull; Bot can be tested by texting “Hi” to (315) 284-8090 <br />
+
           &bull; Code can be found at:
           <a
             href="https://github.com/code-for-syracuse/CitizensReviewBoardChatBot"
             target="_blank">github.com/code-for-syracuse/CitizensReviewBoardChatBot</a
-          ><br /><br />
-        </p>
+          ><br />          
+          &bull; Bot can be tested by texting “Hi” to (315) 284-8090         
+          </p>
+          <br />
+
+    <div class = "text-center">
+          <v-btn href="sms:+3152848090&body=Hi"
+  depressed
+  elevation="10"
+  color="primary"
+  raised
+  rounded
+  dark
+  >
+Test Chatbot
+  </v-btn>
+  </div>
+                  <br />
         <v-img
           :src="require('../assets/android-phone.png')"
           class="my-3"
