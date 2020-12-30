@@ -281,7 +281,7 @@
           &bull; Postman <br />
           &bull; C++ <br />
           &bull; Heroku <br />
-          &bull; Workpress <br />
+          &bull; Wordpress <br />
           &bull; Squarespace <br />
           &bull; Wix <br />
         </h5>
