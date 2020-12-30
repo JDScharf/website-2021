@@ -9,7 +9,7 @@
         </h1>
         <br />
         <h2 class="heading-job-title">
-          Civic Technologist
+          Jr. Web Developer
         </h2>
         <br />
         </v-col>
@@ -51,111 +51,7 @@
       <br />
             <br />
                         <br />
-    <v-row>
-
-      <v-col>
-        <h2 class="heading-2">Experience</h2>
-        <br />
-
-        <h3 class="heading-3">
-          Onondaga County Dept. of Child & Family Services, Syracuse, NY —
-          Caseworker
-        </h3>
-        <h5 class = "heading-5">
-          February 2012 - Present 
-        </h5>
-        <br />
-
-        <p>
-          &bull; Helping ensure safety and permanency in foster care, I have
-          reached 99% successful monthly contacts, surpassing federal standards
-          of 95%.
-        </p>
-      </v-col>
-    </v-row>
-
-    <v-row>
-      <v-col>
-        <h3 class="heading-3">
-          Hack Upstate - Careers in Code Bootcamp, Syracuse, NY — Student
-          Success Coordinator
-        </h3>
-        <h5 class = "heading-5">
-          February 2019 - Present
-        </h5>
-          <br />
-        <p>
-          &bull; Made 109 successful check ins with students of
-          HTML/CSS/Javascript bootcamp, helping to achieve a 92% rate of
-          successful student completion.
-        </p>
-      </v-col>
-    </v-row>
-          <br />
-                <br />
-                            <br />
-
-<v-row>
-      <v-col>
-        <h2 class="heading-2">Volunteer Experience</h2>
-        <br />
-
-        <h3 class="heading-3">
-          Code for Syracuse —
-          Brigade Co-lead
-        </h3>
-        <h5 class = "heading-5">
-          July 2019 - Present 
-        </h5>
-        <br />
-
-        <p>
-          &bull; Helping to organize and guide a team of software and web developers to create website based projects for local non-profit organizations.<br />
-          &bull; Collaborated with New York City and Buffalo, NY brigades to do a user accessability audit of the NYS Food Stamps Application.
-        </p>
-      </v-col>
-    </v-row>
-          <br />
-                <br />
-                            <br />
-
-    <v-row>
-      <v-col>
-        <h2 class="heading-2">Education</h2>
-        <br />
-
-        <h3 class="heading-3">
-          Eastern Gateway Community College
-        </h3>
-        <h5 class="heading-5">
-          Spring 2020 - Present
-        </h5>          
-        <br />
-        <p>
-          &bull; Coursework includes Data Wrangling & Visualization (Learning R
-          “tidyverse” and Python “pandas”) and Statistical Programming.
-          <br />
-        </p>
-      </v-col>
-    </v-row>
-
-    <v-row>
-      <v-col>
-        <h3 class="heading-3">
-          Roberts Wesleyan College, BA Religion and Philosophy
-        </h3>
-        <br />
-
-        <p>
-          &bull; Coursework included Logic, Calculus, Physics, Writing, and
-          Social Work classes.
-        </p>
-      </v-col>
-    </v-row>
-          <br />
-                <br />
-                            <br />
-
+    
     <v-row>
       <v-col>
         <h2 class="heading-2">Projects</h2>
@@ -375,105 +271,117 @@ Browse Gallery
           &bull; Heroku <br />
         </h5>
       </v-col>
-
-      <!--
-        <v-card
-    class="mx-auto"
-    max-width="400"
-    tile
-  >
-  <v-list-item>
-           <v-list-item-content>
-        <v-list-item-title>Javascript</v-list-item-title>
-        <v-list-item-title>Vue.JS </v-list-item-title>
-        <v-list-item-title>HTML/CSS &#9679; &#9679; &#9679; &#9675; &#9675;</v-list-item-title>
-        <v-list-item-title>Twilio &#9679; &#9679; &#9679; &#9675; &#9675;</v-list-item-title>
-        </v-list-item-content>
-    </v-list-item>
-
-      <v-simple-table>
-    <template v-slot:default>
-      <thead>
-        <tr>
-          <th class="text-left">
-            Programming Language/Software
-          </th>
-          <th class="text-left">
-            Familiarity
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          v-for="item in languages"
-          :key="item.name"
-        >
-          <td>{{ item.name }}</td>
-          <v-list-item-icon>
-          <v-icon v-text="item.icon"></v-icon>
-          </v-list-item-icon>
-        </tr>
-      </tbody>
-    </template>
-  </v-simple-table>
-      </v-card>
-      -->
     </v-row>
   <br />
+      <br />
+                            <br />
+  <v-row>
+
+      <v-col>
+        <h2 class="heading-2">Experience</h2>
+        <br />
+
+        <h3 class="heading-3">
+          Onondaga County Dept. of Child & Family Services, Syracuse, NY —
+          Caseworker
+        </h3>
+        <h5 class = "heading-5">
+          February 2012 - Present 
+        </h5>
+        <br />
+
+        <p>
+          &bull; Helping ensure safety and permanency in foster care, I have
+          reached 99% successful monthly contacts, surpassing federal standards
+          of 95%.
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
+          Hack Upstate - Careers in Code Bootcamp, Syracuse, NY — Student
+          Success Coordinator
+        </h3>
+        <h5 class = "heading-5">
+          February 2019 - Present
+        </h5>
+          <br />
+        <p>
+          &bull; Made 109 successful check ins with students of
+          HTML/CSS/Javascript bootcamp, helping to achieve a 92% rate of
+          successful student completion.
+        </p>
+      </v-col>
+    </v-row>
+          <br />
+                <br />
+                            <br />
+
+<v-row>
+      <v-col>
+        <h2 class="heading-2">Volunteer Experience</h2>
+        <br />
+
+        <h3 class="heading-3">
+          Code for Syracuse —
+          Brigade Co-Lead
+        </h3>
+        <h5 class = "heading-5">
+          July 2019 - Present 
+        </h5>
+        <br />
+
+        <p>
+          &bull; Helping to organize and guide a team of software and web developers to create website based projects for local non-profit organizations.<br />
+          &bull; Collaborated with New York City and Buffalo, NY brigades to do a user accessibility  audit of the NYS Food Stamps Application.
+        </p>
+      </v-col>
+    </v-row>
+          <br />
+                <br />
+                            <br />
+
+    <v-row>
+      <v-col>
+        <h2 class="heading-2">Education</h2>
+        <br />
+
+        <h3 class="heading-3">
+          Eastern Gateway Community College
+        </h3>
+        <h5 class="heading-5">
+          Spring 2020 - Present
+        </h5>          
+        <br />
+        <p>
+          &bull; Coursework includes Data Wrangling & Visualization (Learning R
+          “tidyverse” and Python “pandas”) and Statistical Programming.
+          <br />
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
+          Roberts Wesleyan College, BA Religion and Philosophy
+        </h3>
+        <br />
+
+        <p>
+          &bull; Coursework included Logic, Calculus, Physics, Writing, and
+          Social Work classes.
+        </p>
+      </v-col>
+    </v-row>
+          <br />
+
   </v-container>
 </template>
 
 <script>
-/*
-  export default {
-    data () {
-      return {
-        languages: [
-          {
-            name: 'Javascript',
-            icon: "mdi-check-circle", 
-          },
-          {
-            name: 'Vue.JS',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'Eclair',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'Cupcake',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'Gingerbread',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'Jelly bean',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'Lollipop',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'Honeycomb',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'Donut',
-            icon: "mdi-clock",
-          },
-          {
-            name: 'KitKat',
-            icon: "mdi-clock",
-          },
-        ],
-      }
-    },
-  }
-  */
 </script>
 
 <style>
