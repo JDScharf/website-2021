@@ -1,21 +1,9 @@
 <template>
   <v-container>
     <v-row>
-          <v-col class="text-left">
-       
-          <v-card max-width="350" id="rounded-card">
-          <v-img
-            :src="require('../assets/jason.jpg')"
-            class="my-3"
-            contain
-            height="400"
-            padding-left="50px"
-          />
-        </v-card>
-        <br />
-        </v-col>
-
-      <v-col class="text-right">
+        <v-col class="text-left">
+          <br />
+          <br />
         <h1 class="heading-name">
           Jason Scharf
         </h1>
@@ -24,6 +12,23 @@
           Civic Technologist
         </h2>
         <br />
+        </v-col>
+
+          <v-col class="text-center">
+          <v-card max-width="350" id="rounded-card">
+          <v-img
+            :src="require('../assets/jason.jpg')"
+            class="my-3"
+            contain
+            height="100%"
+            max-height="300px"
+          />
+        </v-card>
+        </v-col>
+
+      <v-col class="text-right">
+        <br />
+
         <h3 class="subheading font-weight-regular">
           I am a hard worker, who enjoys learning and facing new challenges. I
           am skilled at managing multiple projects, meeting deadlines, while
@@ -37,14 +42,17 @@
           jasonscharf3@gmail.com</a>
 |
           <a href="sms:3154474501">
-(315) 447-4501
+            (315) 447-4501
   </a>
         </h6>
                  <br />
       </v-col>
     </v-row>
-
+      <br />
+            <br />
+                        <br />
     <v-row>
+
       <v-col>
         <h2 class="heading-2">Experience</h2>
         <br />
@@ -69,7 +77,7 @@
     <v-row>
       <v-col>
         <h3 class="heading-3">
-          Hack Upsate - Caereers in Code Bootcamp, Syracuse, NY — Student
+          Hack Upstate - Careers in Code Bootcamp, Syracuse, NY — Student
           Success Coordinator
         </h3>
         <h5 class = "heading-5">
@@ -83,6 +91,33 @@
         </p>
       </v-col>
     </v-row>
+          <br />
+                <br />
+                            <br />
+
+<v-row>
+      <v-col>
+        <h2 class="heading-2">Volunteer Experience</h2>
+        <br />
+
+        <h3 class="heading-3">
+          Code for Syracuse —
+          Brigade Co-lead
+        </h3>
+        <h5 class = "heading-5">
+          July 2019 - Present 
+        </h5>
+        <br />
+
+        <p>
+          &bull; Helping to organize and guide a team of software and web developers to create website based projects for local non-profit organizations.<br />
+          &bull; Collaborated with New York City and Buffalo, NY brigades to do a user accessability audit of the NYS Food Stamps Application.
+        </p>
+      </v-col>
+    </v-row>
+          <br />
+                <br />
+                            <br />
 
     <v-row>
       <v-col>
@@ -117,6 +152,9 @@
         </p>
       </v-col>
     </v-row>
+          <br />
+                <br />
+                            <br />
 
     <v-row>
       <v-col>
@@ -159,17 +197,18 @@
           The goal is to break the <i class="fas fa-traffic-light"></i> and
           bring glory and honor to Ireland!
         </p>
-        <br />
       </v-col>
     </v-row>
+                <br />
+                            <br />
+                             <br />
 
     <v-row>
       <v-col>
         <h3 class="heading-3">
           Salt City Security - Vue.JS App
-          <br />
-          <br />
         </h3>
+          <br />
 
         <p>
           &bull; Created an App to register Users, authenticate their login
@@ -199,6 +238,9 @@
         /></a>
       </v-col>
     </v-row>
+                <br />
+                            <br />
+                                      <br />
 
     <v-row>
       <v-col>
@@ -231,15 +273,23 @@
 Test Chatbot
   </v-btn>
   </div>
-                  <br />
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
         <v-img
           :src="require('../assets/android-phone.png')"
           class="my-3"
           contain
-          height="750"
+          width= "100%"
+          max-height="750"
         />
       </v-col>
     </v-row>
+          <br />
+                      <br />
+                                <br />
 
     <v-row>
       <v-col>
@@ -274,14 +324,157 @@ Browse Gallery
           :src="require('../assets/skateboard.png')"
           class="my-3"
           contain
-          height="750"
+          width="100%"
+          max-height="750px"
+
         />
       </v-col>
     </v-row>
+    <br />
+          <br />
+                      <br />
+
+    <v-row>
+      <v-col>
+        <h2 class="heading-2">Development Skills</h2>
+      </v-col>
+    </v-row>
+
+    <v-row>
+        <v-col>
+        <h4 class="heading-4">Proficient</h4>
+        <br />
+          <h5 class = "heading-5">
+          &bull; Javascript <br />
+          &bull; Vue.JS <br />
+          &bull; HTML/CSS <br />
+          &bull; Git/GitHub <br />
+        </h5>
+        </v-col>
+
+      <v-col>
+<h4 class="heading-4">Intermediate</h4>
+       <br />
+          <h5 class = "heading-5">
+          &bull; R <br />
+          &bull; Tableau <br />
+          &bull; Twilio <br />
+          &bull; Figma <br />
+          &bull; C#/Unity3D <br />
+          &bull; Excel <br />
+        </h5>
+      </v-col>
+
+      <v-col>
+<h4 class="heading-4">Basic</h4>
+       <br />
+          <h5 class = "heading-5">
+          &bull; SQL <br />
+          &bull; Postman <br />
+          &bull; C++ <br />
+          &bull; Heroku <br />
+        </h5>
+      </v-col>
+
+      <!--
+        <v-card
+    class="mx-auto"
+    max-width="400"
+    tile
+  >
+  <v-list-item>
+           <v-list-item-content>
+        <v-list-item-title>Javascript</v-list-item-title>
+        <v-list-item-title>Vue.JS </v-list-item-title>
+        <v-list-item-title>HTML/CSS &#9679; &#9679; &#9679; &#9675; &#9675;</v-list-item-title>
+        <v-list-item-title>Twilio &#9679; &#9679; &#9679; &#9675; &#9675;</v-list-item-title>
+        </v-list-item-content>
+    </v-list-item>
+
+      <v-simple-table>
+    <template v-slot:default>
+      <thead>
+        <tr>
+          <th class="text-left">
+            Programming Language/Software
+          </th>
+          <th class="text-left">
+            Familiarity
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          v-for="item in languages"
+          :key="item.name"
+        >
+          <td>{{ item.name }}</td>
+          <v-list-item-icon>
+          <v-icon v-text="item.icon"></v-icon>
+          </v-list-item-icon>
+        </tr>
+      </tbody>
+    </template>
+  </v-simple-table>
+      </v-card>
+      -->
+    </v-row>
+  <br />
   </v-container>
 </template>
 
-<script></script>
+<script>
+/*
+  export default {
+    data () {
+      return {
+        languages: [
+          {
+            name: 'Javascript',
+            icon: "mdi-check-circle", 
+          },
+          {
+            name: 'Vue.JS',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'Eclair',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'Cupcake',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'Gingerbread',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'Jelly bean',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'Lollipop',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'Honeycomb',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'Donut',
+            icon: "mdi-clock",
+          },
+          {
+            name: 'KitKat',
+            icon: "mdi-clock",
+          },
+        ],
+      }
+    },
+  }
+  */
+</script>
 
 <style>
 #rounded-card {
