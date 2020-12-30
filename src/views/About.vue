@@ -4,20 +4,25 @@
       Tableau Data Viz
       <br />
     </h3>
-          <br />
-        <p>
-       &bull; You can explore these visualizations further at my <a href="https://public.tableau.com/profile/jason.scharf#!/" target="_blank"> Tableau Public Profile.</a>
-      </p>
-      <br />
+    <br />
+    <p>
+      &bull; You can explore these visualizations further at my
+      <a
+        href="https://public.tableau.com/profile/jason.scharf#!/"
+        target="_blank"
+      >
+        Tableau Public Profile.</a
+      >
+    </p>
+    <br />
 
-    <v-carousel :show-arrows="false" cycle height="800" >
+    <v-carousel :show-arrows="false" cycle height="800">
       <v-carousel-item v-for="(item, i) in items" :key="i">
         <img :src="item.src"
       /></v-carousel-item>
     </v-carousel>
     <LowerFooter msg="test" />
   </v-col>
-
 </template>
 
 Search Vuetify #Carousels The v-carousel component is used to display large
@@ -55,8 +60,8 @@ export default {
         }
       ],
       components: {
-      LowerFooter
-  },
+        LowerFooter
+      }
     };
   }
 };
@@ -64,7 +69,7 @@ export default {
 
 <style scoped>
 .heading-viz {
-  color: #2C8591;
+  color: #2c8591;
   font-size: 40px;
 }
 /*

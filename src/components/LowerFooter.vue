@@ -1,15 +1,8 @@
 <template>
-  <v-footer
-    dark
-    padless
-  >
-    <v-card
-      class="flex"
-      flat
-      tile
-    >    
-    <v-card-title class="teal">
-    <!--
+  <v-footer dark padless>
+    <v-card class="flex" flat tile>
+      <v-card-title class="teal">
+        <!--
   
         <strong class="subheading">Check my social media to learn more!</strong>
 
@@ -25,8 +18,8 @@
           <v-icon size="24px">{{ icon }}</v-icon>
         </v-btn>
 
--->  
-</v-card-title>
+-->
+      </v-card-title>
       <v-card-text class="py-2 white--text text-center">
         {{ new Date().getFullYear() }} — <strong>Jason D Scharf Designs</strong>
       </v-card-text>
@@ -35,21 +28,15 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      icons: [
-        'mdi-email',
-        'mdi-github',
-        'mdi-twitter',
-        'mdi-linkedin'
-
-      ],
-    }),
-  }
+export default {
+  data: () => ({
+    icons: ["mdi-email", "mdi-github", "mdi-twitter", "mdi-linkedin"]
+  })
+};
 </script>
 
 <style scoped>
 .flex {
-  background: #7EB4B3;
+  background: #7eb4b3;
 }
 </style>
