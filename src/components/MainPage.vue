@@ -342,7 +342,7 @@
           Code for Syracuse — Brigade Co-Lead
         </h3>
         <h5 class="heading-5">
-          July 2019 - Present
+          July 2019 - December 2020
         </h5>
         <br />
 
