@@ -9,7 +9,7 @@
         </h1>
         <br />
         <h2 class="heading-job-title">
-          Jr. Web Developer
+          Civic Technologist
         </h2>
         <br />
       </v-col>
