@@ -37,13 +37,13 @@
           and volunteer work, I have been improving my skills in web development, data analysis, and data visualization.
         </h3>
         <br />
-        <h6 class="heading-4">
+        <h4 class="heading-4">
           <a href="mailto:jasonscharf3@gmail.com"> jasonscharf3@gmail.com</a>
           |
           <a href="sms:3154474501">
             (315) 447-4501
           </a>
-        </h6>
+        </h4>
       </v-col>
     </v-row>
     <br />
@@ -171,7 +171,7 @@
             href="sms:3152848090?&body=Hi"
             depressed
             elevation="10"
-            color="#7EB4B3"
+            color="#2c8591"
             raised
             rounded
             dark
@@ -226,7 +226,7 @@
             to="/about"
             depressed
             elevation="10"
-            color="#7EB4B3"
+            color="#2c8591"
             raised
             rounded
             dark
@@ -446,7 +446,7 @@
   font-size: 20px;
 }
 .text-button {
-  color: #7eb4b3;
+  color: #2c8591;
 }
 .game-container {
   position: relative;

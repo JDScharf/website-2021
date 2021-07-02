@@ -37,6 +37,6 @@ export default {
 
 <style scoped>
 .flex {
-  background: #7eb4b3;
+  background: #32848f;
 }
 </style>

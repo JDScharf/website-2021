@@ -78,7 +78,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet');
 
 a:link {
-  color: #2c8591;
+  color: #206169;
 }
 
 a:visited {
@@ -86,7 +86,7 @@ a:visited {
 }
 
 a:hover {
-  color: #7eb4b3;
+  color: #529199;
 }
 
 body {
