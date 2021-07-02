@@ -74,6 +74,7 @@
 
     <div class="game-container">
       <iframe
+        title="Stone Throwers Game"
         src="https://i.simmer.io/@JDScharf/stonethrowers-of-syracuse"
         alt="Video Game Image of Man with a Rock, a Traffic Light, and someone walking back and forth."
         style="position: absolute; 
@@ -86,12 +87,13 @@
     <v-row>
       <v-col>
         <p>
-          <b>Controls:</b> Hold the <u> space bar </u> to increase the force of
-          your throw.<br />
+          <b>Controls:</b> Click on the game screen to begin.  Hold the <u> space bar </u> to increase the force of
+          your throw.
           Use the &#8593; and &#8595; arrow to change the direction your rock
           will be thrown. <br />
           The goal is to break the <i class="fas fa-traffic-light"></i> and
-          bring glory and honor to Ireland!
+          bring glory and honor to Ireland! <br />
+          &bull; Game can be played on desktop or laptop, but not on mobile at this time.
         </p>
       </v-col>
     </v-row>
@@ -163,6 +165,7 @@
         </p>
         <br />
 
+        <button>
         <div class="text-button">
           <v-btn
             href="sms:3152848090?&body=Hi"
@@ -176,6 +179,7 @@
             Test Chatbot
           </v-btn>
         </div>
+        </button>
       </v-col>
     </v-row>
 
