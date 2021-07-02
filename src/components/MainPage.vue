@@ -9,7 +9,7 @@
         </h1>
         <br />
         <h2 class="heading-job-title">
-          Civic Technologist
+          Web Developer
         </h2>
         <br />
       </v-col>
@@ -34,8 +34,7 @@
           I am a hard worker, who enjoys learning and facing new challenges. I
           am skilled at managing multiple projects, meeting deadlines, while
           always striving to provide excellent service. Through college courses
-          and volunteer work, I have been improving my skills in data analysis
-          and software development.
+          and volunteer work, I have been improving my skills in web development, data analysis, and data visualization.
         </h3>
         <br />
         <h6 class="heading-4">
@@ -62,10 +61,10 @@
         <br />
 
         <p>
-          &bull; Created a functioning video game with Unity’s video game engine
+          &bull; Created a video game with Unity’s video game engine and C# scripting.
           <br />
           &bull; Code can be found at:
-          <a href="www.github.com/JDScharf/Stonethrowers" target="_blank"
+          <a href="https://www.github.com/JDScharf/Stonethrowers" target="_blank"
             >github.com/JDScharf/Stonethrowers</a
           >
         </p>
@@ -76,7 +75,8 @@
     <div class="game-container">
       <iframe
         src="https://i.simmer.io/@JDScharf/stonethrowers-of-syracuse"
-        style="position: absolute;
+        alt="Video Game Image of Man with a Rock, a Traffic Light, and someone walking back and forth."
+        style="position: absolute; 
     top:0;
     left: 0;
     width: 100%;
@@ -118,7 +118,7 @@
           >
           <br />
           &bull; Code can be found at:
-          <a href="www.github.com/JDScharf/vue-app" target="_blank"
+          <a href="https://www.github.com/JDScharf/vue-app" target="_blank"
             >github.com/JDScharf/vue-app</a
           >
         </p>
@@ -132,6 +132,7 @@
           target="_blank"
           ><v-img
             :src="require('../assets/Salt-City.png')"
+            alt="Screenshot of a login screen for Salt City Security."
             class="my-3"
             contain
             width="100%"
@@ -182,6 +183,7 @@
       <v-col>
         <v-img
           :src="require('../assets/android-phone.png')"
+          alt="Screenshot of a phone with sample chat correspondence."
           class="my-3"
           contain
           width="100%"
@@ -231,6 +233,7 @@
         <br />
         <v-img
           :src="require('../assets/skateboard.png')"
+          alt="Image of data visualization showing kinds of skateboard music used from 1990-2020, with a skateboard image on the top."
           class="my-3"
           contain
           width="100%"
@@ -416,12 +419,12 @@
 }
 
 .heading-job-title {
-  color: #7eb4b3;
+  color: #645e71;
   font-size: 35px;
 }
 
 .heading-2 {
-  color: #7eb4b3;
+  color: #2c8591;
   font-size: 40px;
 }
 
