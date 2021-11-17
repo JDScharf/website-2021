@@ -297,6 +297,23 @@
         <br />
 
         <h3 class="heading-3">
+          Kirkwork Software Development, Syracuse, NY —
+          Software Developer
+        </h3>
+        <h5 class="heading-5">
+          January 2021 - Present (Part-time and contract employment)
+        </h5>
+        <br />
+
+        <p>
+          &bull; Assisted in adding features to an interactive desktop software application using Vue.js, RESTful API’s, and Postman for API testing.
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
           Onondaga County Dept. of Child & Family Services, Syracuse, NY —
           Caseworker
         </h3>
