@@ -106,13 +106,6 @@
           &bull; Created an App to register Users, authenticate their login
           information using a JWT bearer token, and access alarm signal data
           from a mock API. <br />
-          &bull; App can be tested at:
-          <a
-            href="https://signal-vuetify.herokuapp.com/RegisterUser"
-            target="_blank"
-            >signal-vuetify.herokuapp.com</a
-          >
-          <br />
           &bull; Code can be found at:
           <a href="https://www.github.com/JDScharf/vue-app" target="_blank"
             >github.com/JDScharf/vue-app</a
