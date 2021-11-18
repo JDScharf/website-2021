@@ -14,8 +14,10 @@
         <br />
       </v-col>
 
-      <v-col class="d-flex justify-center">
-        <v-card id="rounded-card" class="elevation-0" max-height="350" min-height="350">
+      <v-col id="middle-column"
+      :align-self="center">
+        <v-card id="rounded-card" class="justify-center" max-height="350" 
+        min-height="350">
           <v-img
             :src="require('../assets/Jason-WS.jpg')"
             class="rounded-img"
@@ -24,8 +26,7 @@
           />
           </v-card>
       </v-col>
-            <!--  height="100%"
-              max-height="350px" -->
+
       <v-col class="text-right">
         <h3 class="subheading font-weight-regular">
          I am a hard worker, who enjoys learning and facing new challenges.  I am skilled at managing multiple projects, meeting deadlines, while always striving to provide excellent customer service to clients and stakeholders.  Through college classes, part-time and contract web development, and volunteer work, I have been improving my skills in web development, data analysis, and visualization.
@@ -413,11 +414,12 @@
 #rounded-card {
   border-radius: 50%; 
 }
-
+#middle-column {
+  justify-content: center;
+}
 .v-sheet.v-card:not(.v-sheet--outlined) {
       box-shadow: none
 }
-
 .text-right {
   padding-top: 35px;
 }
