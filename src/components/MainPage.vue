@@ -73,10 +73,10 @@
         src="https://i.simmer.io/@JDScharf/stonethrowers-of-syracuse"
         alt="Video Game Image of Man with a Rock, a Traffic Light, and someone walking back and forth."
         style="position: absolute; 
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;"
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;"
       ></iframe>
     </div>
     <v-row>
@@ -90,6 +90,47 @@
           bring glory and honor to Ireland! <br />
           &bull; Game can be played on desktop or laptop, but not on mobile at this time.
         </p>
+      </v-col>
+    </v-row>
+    <br />
+    <br />
+    <br />
+
+        <v-row>
+      <v-col>
+        <h3 class="heading-3">
+          Spotify Music Explorer - Vue.JS App
+        </h3>
+        <br />
+
+        <p>
+          &bull; Created a web app allowing users to explore Spotify's API, using client side authentication, and RESTful API calls.  This allows the user to explore different musical artists based one a genre or artist they are interested in. <br />
+          &bull; Site can be explored at: 
+          <a
+            href="https://jason-spotify.netlify.app/"
+            target="_blank"
+          >jason-spotify.netlify.app</a
+          ><br />
+          &bull; Code can be found at:
+          <a href="https://www.github.com/JDScharf/spotify-app" target="_blank"
+            >github.com/JDScharf/spotify-app</a
+          >
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <a
+          href="https://jason-spotify.netlify.app/"
+          target="_blank"
+          ><v-img
+            :src="require('../assets/Spotify-App.png')"
+            alt="Screenshot of a Spotify web app."
+            class="my-3"
+            contain
+            width="100%"
+        /></a>
       </v-col>
     </v-row>
     <br />
