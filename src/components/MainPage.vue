@@ -105,7 +105,7 @@
 
         <p>
           &bull; Created a web app allowing users to explore Spotify's API, using client side authentication, and RESTful API calls.  This allows the user to explore different musical artists based one a genre or artist they are interested in. <br />
-          &bull; Site can be explored at: 
+          &bull; Site can be visited at: 
           <a
             href="https://jason-spotify.netlify.app/"
             target="_blank"
