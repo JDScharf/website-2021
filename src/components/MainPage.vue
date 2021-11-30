@@ -51,54 +51,6 @@
         <br />
 
         <h3 class="heading-3">
-          Stonethrowers of Syracuse Video Game — C#/Unity3D Project
-        </h3>
-        <br />
-
-        <p>
-          &bull; Created a video game with Unity’s video game engine and C# scripting.
-          <br />
-          &bull; Code can be found at:
-          <a href="https://www.github.com/JDScharf/Stonethrowers" target="_blank"
-            >github.com/JDScharf/Stonethrowers</a
-          >
-        </p>
-        <br />
-      </v-col>
-    </v-row>
-
-    <div class="game-container">
-      <iframe
-        title="Stone Throwers Game"
-        src="https://i.simmer.io/@JDScharf/stonethrowers-of-syracuse"
-        alt="Video Game Image of Man with a Rock, a Traffic Light, and someone walking back and forth."
-        style="position: absolute; 
-            top:0;
-            left: 0;
-            width: 100%;
-            height: 100%;"
-      ></iframe>
-    </div>
-    <v-row>
-      <v-col>
-        <p>
-          <b>Controls:</b> Click on the game screen to begin.  Hold the <u> space bar </u> to increase the force of
-          your throw.
-          Use the &#8593; and &#8595; arrow to change the direction your rock
-          will be thrown. <br />
-          The goal is to break the <i class="fas fa-traffic-light"></i> and
-          bring glory and honor to Ireland! <br />
-          &bull; Game can be played on desktop or laptop, but not on mobile at this time.
-        </p>
-      </v-col>
-    </v-row>
-    <br />
-    <br />
-    <br />
-
-        <v-row>
-      <v-col>
-        <h3 class="heading-3">
           Spotify Music Explorer - Vue.JS App
         </h3>
         <br />
@@ -125,7 +77,7 @@
           href="https://jason-spotify.netlify.app/"
           target="_blank"
           ><v-img
-            :src="require('../assets/Spotify-App.png')"
+            :src="require('../assets/Spotify-App2.svg')"
             alt="Screenshot of a Spotify web app."
             class="my-3"
             contain
@@ -222,6 +174,55 @@
           width="100%"
           max-height="750"
         />
+      </v-col>
+    </v-row>
+    <br />
+    <br />
+    <br />
+
+    
+      <v-row>
+        <v-col>
+        <h3 class="heading-3">
+          Stonethrowers of Syracuse Video Game — C#/Unity3D Project
+        </h3>
+        <br />
+
+        <p>
+          &bull; Created a video game with Unity’s video game engine and C# scripting.
+          <br />
+          &bull; Code can be found at:
+          <a href="https://www.github.com/JDScharf/Stonethrowers" target="_blank"
+            >github.com/JDScharf/Stonethrowers</a
+          >
+        </p>
+        <br />
+      </v-col>
+    </v-row>
+
+    <div class="game-container">
+      <iframe
+        title="Stone Throwers Game"
+        src="https://i.simmer.io/@JDScharf/stonethrowers-of-syracuse"
+        alt="Video Game Image of Man with a Rock, a Traffic Light, and someone walking back and forth."
+        style="position: absolute; 
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;"
+      ></iframe>
+    </div>
+    <v-row>
+      <v-col>
+        <p>
+          <b>Controls:</b> Click on the game screen to begin.  Hold the <u> space bar </u> to increase the force of
+          your throw.
+          Use the &#8593; and &#8595; arrow to change the direction your rock
+          will be thrown. <br />
+          The goal is to break the <i class="fas fa-traffic-light"></i> and
+          bring glory and honor to Ireland! <br />
+          &bull; Game can be played on desktop or laptop, but not on mobile at this time.
+        </p>
       </v-col>
     </v-row>
     <br />
