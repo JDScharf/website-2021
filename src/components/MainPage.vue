@@ -196,12 +196,28 @@
             >github.com/JDScharf/Stonethrowers</a
           >
         </p>
+          <!-- <button>
+        <div class="text-right">
+          <v-btn
+            @click="muteGame()"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            Mute Sound
+          </v-btn>
+        </div>
+      </button> -->
         <br />
       </v-col>
     </v-row>
 
     <div class="game-container">
       <iframe
+        id="gameFrame"
         title="Stone Throwers Game"
         src="https://i.simmer.io/@JDScharf/stonethrowers-of-syracuse"
         alt="Video Game Image of Man with a Rock, a Traffic Light, and someone walking back and forth."
@@ -209,7 +225,9 @@
             top:0;
             left: 0;
             width: 100%;
-            height: 100%;"
+            height: 100%;
+            mute=true"
+        class="mute=true"
       ></iframe>
     </div>
     <v-row>
@@ -327,17 +345,36 @@
     <br />
     <br />
     <br />
+
     <v-row>
       <v-col>
         <h2 class="heading-2">Experience</h2>
         <br />
 
         <h3 class="heading-3">
+          City of Syracuse API Team — Data Program Manager
+        </h3>
+        <h5 class="heading-5">
+          January 2022 - Present
+        </h5>
+        <br />
+
+        <p>
+          &bull; Helping to manage <a href="https://data.syrgov.net/"> Open Data Syracuse</a>, the City's Open Data Portal website.
+        </p>
+        <p>
+          &bull; Creating Maps and Data Visualizations in ArcGIS and Tableau with public data.</p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
           Kirkwork Software Development, Syracuse, NY —
           Software Developer
         </h3>
         <h5 class="heading-5">
-          January 2021 - Present (Part-time and contract employment)
+          January 2021 - November 2021 (Part-time and contract employment)
         </h5>
         <br />
 
@@ -354,7 +391,7 @@
           Caseworker
         </h3>
         <h5 class="heading-5">
-          February 2012 - Present
+          February 2012 - January 2022
         </h5>
         <br />
 
@@ -450,7 +487,41 @@
   </v-container>
 </template>
 
-<script></script>
+<script>
+//   export default {
+//     name: 'MainPage',
+//       data: () => ({
+//         myVid: "",
+//       }),
+//       methods: {  
+//         // 3rd Try
+//         muteGame() {
+//           [].slice.call(document.querySelectorAll('audio')).forEach(function(audio) {
+//     audio.muted = true;
+// });
+//           // this.myVid=document.getElementById("gameFrame");
+//           // this.myVid.muted = true;
+//           // this.myVid.pause();
+//         },
+//   // Mute a singular HTML5 element
+//         muteMe(elem) {
+//             elem.muted = true;
+//             elem.pause();
+//         },
+// // Try to mute all video and audio elements on the page
+//         mutePage() {
+//             var elems = document.querySelectorAll("video, audio");
+//             [].forEach.call(elems, function(elem) { this.muteMe(elem); });
+//         },
+//           // muteSound() {
+//           //   localStorage.mute = 1 
+//           //   // - Number(localStorage.mute);
+//           //   // this will result in `.mute` being either '0' or '1' (strings)
+//           //   // perform mute operation too, if a sound is currently playing, if you want
+//           // }
+//       }
+//   }
+</script>
 
 <style>
 #rounded-card {
