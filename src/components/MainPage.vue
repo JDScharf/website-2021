@@ -370,6 +370,24 @@
     <v-row>
       <v-col>
         <h3 class="heading-3">
+          Hack Upstate - Careers in Code Bootcamp, Syracuse, NY — Student
+          Success Coordinator
+        </h3>
+        <h5 class="heading-5">
+          February 2019 - Present
+        </h5>
+        <br />
+        <p>
+          &bull; Made 109 successful check ins with students of
+          HTML/CSS/Javascript bootcamp, helping to achieve a 92% rate of
+          successful student completion.
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
           Kirkwork Software Development, Syracuse, NY —
           Software Developer
         </h3>
@@ -403,23 +421,6 @@
       </v-col>
     </v-row>
 
-    <v-row>
-      <v-col>
-        <h3 class="heading-3">
-          Hack Upstate - Careers in Code Bootcamp, Syracuse, NY — Student
-          Success Coordinator
-        </h3>
-        <h5 class="heading-5">
-          February 2019 - Present
-        </h5>
-        <br />
-        <p>
-          &bull; Made 109 successful check ins with students of
-          HTML/CSS/Javascript bootcamp, helping to achieve a 92% rate of
-          successful student completion.
-        </p>
-      </v-col>
-    </v-row>
     <br />
     <br />
     <br />
