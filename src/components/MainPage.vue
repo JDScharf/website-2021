@@ -299,6 +299,34 @@
 
     <v-row>
       <v-col>
+        <h3 class="heading-3">
+          Map Projects - ArcGIS
+        </h3>
+        <br />
+        <p>
+          &bull; Created maps and data visualizations using publicly
+          available data sources. <br />
+
+        </p>
+        <br />
+
+        <br />
+        <v-img
+          :src="require('../assets/NYLakes.png')"
+          alt="Image of a contour map of New York State with different colors for different elevation depths."
+          class="my-3"
+          contain
+          width="100%"
+          max-height="750px"
+        />
+      </v-col>
+    </v-row>
+    <br />
+    <br />
+    <br />
+
+    <v-row>
+      <v-col>
         <h2 class="heading-2">Development Skills</h2>
       </v-col>
     </v-row>
