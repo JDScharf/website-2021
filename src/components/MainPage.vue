@@ -9,7 +9,7 @@
         </h1>
         <br />
         <h2 class="heading-job-title">
-          Web Developer
+          Data Program Manager
         </h2>
         <br />
       </v-col>
@@ -32,11 +32,12 @@
          I am a hard worker, who enjoys learning and facing new challenges.  I am skilled at managing multiple projects, meeting deadlines, while always striving to provide excellent customer service to clients and stakeholders.  Through college classes, part-time and contract web development, and volunteer work, I have been improving my skills in web development, data analysis, and visualization.
         </h3>
         <br />
-        <h4 class="heading-4">
-          <a href="mailto:jasonscharf3@gmail.com"> jasonscharf3@gmail.com</a>
-          |
-          <a href="sms:3154474501">
-            (315) 447-4501
+        <h4 class="heading-4">e: 
+          <a href="mailto:jasonscharf3@gmail.com">jasonscharf3@gmail.com</a>
+        <br />
+        <br />
+        ph: <a href="sms:3154474501">
+          (315) 447-4501
           </a>
         </h4>
       </v-col>
@@ -79,6 +80,50 @@
           ><v-img
             :src="require('../assets/Spotify-App2.svg')"
             alt="Screenshot of a Spotify web app."
+            class="my-3"
+            contain
+            width="100%"
+        /></a>
+      </v-col>
+    </v-row>
+    <br />
+    <br />
+    <br />
+
+        <v-row>
+      <v-col>
+        <h2 class="heading-2">Projects</h2>
+        <br />
+
+        <h3 class="heading-3">
+          Jason's Job Hypebot - Python Flask App & ChatGPT API
+        </h3>
+        <br />
+
+        <p>
+          &bull; Created a chatbot using ChatGPT's API and documentation.  It will only tell you why you should hire Jason, regardless of what you ask it, and it will always try to rhyme. The responses get kind of funny if you ask it ridiculous questions. <br />
+          &bull; Chatbot site can be visited at: 
+          <a
+            href="http://jdscharf.pythonanywhere.com/"
+            target="_blank"
+          >jdscharf.pythonanywhere.com</a
+          ><br />
+          &bull; Code can be found at:
+          <a href="https://github.com/JDScharf/jason-hypebot" target="_blank"
+            >github.com/JDScharf/jason-hypebot</a
+          >
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <a
+          href="http://jdscharf.pythonanywhere.com/"
+          target="_blank"
+          ><v-img
+            :src="require('../assets/hypebot.png')"
+            alt="Screenshot of a Jason's chatbot app."
             class="my-3"
             contain
             width="100%"
@@ -336,10 +381,14 @@
         <h4 class="heading-4">Proficient</h4>
         <br />
         <h5 class="heading-5">
+          &bull; ArcGIS Pro <br />
+          &bull; Python (Pandas and Arcpy Libraries) <br />
           &bull; Javascript <br />
           &bull; Vue.JS <br />
+          &bull; Excel <br />
           &bull; HTML/CSS <br />
           &bull; Git/GitHub <br />
+          &bull; Figma <br />
         </h5>
       </v-col>
 
@@ -347,12 +396,12 @@
         <h4 class="heading-4">Intermediate</h4>
         <br />
         <h5 class="heading-5">
+          &bull; SQL <br />
           &bull; R <br />
+          &bull; Postman<br />
           &bull; Tableau <br />
           &bull; Twilio <br />
-          &bull; Figma <br />
           &bull; C#/Unity3D <br />
-          &bull; Excel <br />
         </h5>
       </v-col>
 
@@ -360,10 +409,9 @@
         <h4 class="heading-4">Basic</h4>
         <br />
         <h5 class="heading-5">
-          &bull; SQL <br />
-          &bull; Postman <br />
+          &bull; ChatGPT API <br />
           &bull; C++ <br />
-          &bull; Heroku <br />
+          &bull; Netlify <br />
           &bull; Wordpress <br />
           &bull; Squarespace <br />
           &bull; Wix <br />
@@ -442,7 +490,7 @@
         <br />
 
         <p>
-          &bull; Helping ensure safety and permanency in foster care, I have
+          &bull; Helped ensure safety and permanency in foster care, I have
           reached 99% successful monthly contacts, surpassing federal standards
           of 95%.
         </p>
@@ -467,7 +515,7 @@
         <br />
 
         <p>
-          &bull; Helping to organize and guide a team of software and web
+          &bull; Helped to organize and guide a team of software and web
           developers to create website based projects for local non-profit
           organizations.<br />
           &bull; Collaborated with New York City and Buffalo, NY brigades to do
@@ -488,11 +536,11 @@
           Eastern Gateway Community College
         </h3>
         <h5 class="heading-5">
-          Spring 2020 - Present
+          2020
         </h5>
         <br />
         <p>
-          &bull; Coursework includes Data Wrangling & Visualization (Learning R
+          &bull; Coursework included Data Wrangling & Visualization (R
           “tidyverse” and Python “pandas”) and Statistical Programming.
           <br />
         </p>
