@@ -155,16 +155,13 @@
 
     <v-row>
       <v-col>
-        <a
-          href="https://signal-vuetify.herokuapp.com/RegisterUser"
-          target="_blank"
-          ><v-img
+        <v-img
             :src="require('../assets/Salt-City.png')"
             alt="Screenshot of a login screen for Salt City Security."
             class="my-3"
             contain
             width="100%"
-        /></a>
+        />
       </v-col>
     </v-row>
     <br />
