@@ -34,7 +34,7 @@
               </v-list-item>
 
               <v-list-item>
-                <router-link to="/about">Data Visualization</router-link>
+                <router-link to="/data">Data Visualization</router-link>
               </v-list-item>
             </v-list-item-group>
           </v-list>

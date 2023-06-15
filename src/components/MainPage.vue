@@ -310,10 +310,10 @@
         <br />
 
         <div class="text-button">
-          <!--  <router-link to="/about">Data Visualization</router-link> -->
+          <!--  <router-link to="/data">Data Visualization</router-link> -->
           <v-btn
             router-link
-            to="/about"
+            to="/data"
             depressed
             elevation="10"
             color="#2c8591"
