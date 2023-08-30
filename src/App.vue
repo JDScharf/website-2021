@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <!--   <div
-    id="app"
-    style="background: #F2EEE2;
-  "
-  > -->
-    <v-card class="overflow-hidden">
+
+  <!-- Original nav bar -->
+    <v-card>
+      <v-layout>
       <v-app-bar
-        class="nav"
-        absolute
-        shrink-on-scroll
-        src="./assets/syracuse-skyline.svg"
-        scroll-target="#scrolling-techniques-2"
+        color="primary"
+        class="fill-height d-flex justify-space-between align-center"
       >
         <template v-slot:img="{ props }">
           <v-img
@@ -20,39 +15,34 @@
           ></v-img>
         </template>
 
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer">
+        <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer">
         </v-app-bar-nav-icon>
 
-        <v-navigation-drawer v-model="drawer" clipped temporary>
-          <v-list nav dense>
-            <v-list-item-group
-              v-model="group"
-              active-class="deep-blue--text text--accent-4"
-            >
-              <v-list-item>
-                <router-link to="/">About Me</router-link>
-              </v-list-item>
-
-              <v-list-item>
-                <router-link to="/data">Data Visualization</router-link>
-              </v-list-item>
-            </v-list-item-group>
-          </v-list>
-        </v-navigation-drawer>
-
-        <!-- <v-toolbar-title>Jason Scharf |
-    jasonscharf3@gmail.com | (315) 447-4501
-  </v-toolbar-title>  -->
+        <v-toolbar-title>Scharf Consulting</v-toolbar-title>
 
         <v-spacer></v-spacer>
+        <v-btn to="/contact">Hire Me</v-btn>   
       </v-app-bar>
-      <v-sheet
-        id="scrolling-techniques-2"
-        class="overflow-y-auto"
-        max-height="400"
-      >
-        <v-container style="height: 125px;"></v-container>
-      </v-sheet>
+
+        <!-- <v-main style="height: 500px;">
+        <v-card-text>
+          The navigation drawer will appear from the bottom on smaller size screens.
+        </v-card-text>
+      </v-main> -->
+
+    </v-layout>
+    <v-navigation-drawer 
+          v-model="drawer"
+          location="left">
+
+          <v-list>
+              <v-list-item to="/">About Me
+              </v-list-item>
+
+              <v-list-item to="/data">Data Visualization
+              </v-list-item>
+          </v-list>
+        </v-navigation-drawer>
     </v-card>
 
     <router-view />
@@ -63,15 +53,9 @@
 export default {
   data: () => ({
     drawer: false,
-    group: null
+    group: null    
   }),
-
-  watch: {
-    group() {
-      this.drawer = false;
-    }
-  }
-};
+}
 </script>
 
 <style lang="scss">
