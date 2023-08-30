@@ -21,7 +21,7 @@
         <v-toolbar-title>Scharf Consulting</v-toolbar-title>
 
         <v-spacer></v-spacer>
-        <v-btn to="/contact">Hire Me</v-btn>   
+        <v-btn to="/contact">Get in Touch</v-btn>   
       </v-app-bar>
 
         <!-- <v-main style="height: 500px;">
