@@ -21,7 +21,7 @@
 -->
       </v-card-title>
       <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Jason D Scharf Designs</strong>
+        {{ new Date().getFullYear() }} — <strong>Scharf Consulting</strong>
       </v-card-text>
     </v-card>
   </v-footer>

@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Vuetify from "vuetify/lib/framework";
 import colors from "vuetify/lib/util/colors";
+// import mdi from "vuetify/iconsets/mdi";
 
 Vue.use(Vuetify);
 
@@ -17,5 +18,11 @@ export default new Vuetify({
         primary: colors.orange.lighten3
       }
     }
-  }
+  },
+  // icons: {
+  //   defaultSet: 'mdi',
+  //   sets: {
+  //     mdi,
+  //   },
+  // }
 });
