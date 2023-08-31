@@ -96,13 +96,13 @@
 </script> -->
 
 <script>
-import LowerFooter from "@/components/LowerFooter.vue";
+// import LowerFooter from "@/components/LowerFooter.vue";
 
 export default {
   data() {
     return {
        components: {
-        LowerFooter
+        // LowerFooter
       }
     };
   }
