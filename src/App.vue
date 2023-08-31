@@ -2,11 +2,9 @@
   <div id="app">
 
   <!-- Original nav bar -->
-    <v-card>
-      <v-layout>
       <v-app-bar
         color="primary"
-        class="fill-height d-flex justify-space-between align-center"
+        class="fill height d-flex justify-space-between align-center"
       >
         <template v-slot:img="{ props }">
           <v-img
@@ -21,36 +19,43 @@
         <v-toolbar-title>Scharf Consulting</v-toolbar-title>
 
         <v-spacer></v-spacer>
-        <v-btn to="/contact">Get in Touch</v-btn>   
+        <v-btn to="/contact">Get in Touch</v-btn>
       </v-app-bar>
-
         <!-- <v-main style="height: 500px;">
         <v-card-text>
           The navigation drawer will appear from the bottom on smaller size screens.
         </v-card-text>
       </v-main> -->
 
-    </v-layout>
-    <v-navigation-drawer 
+    <div>
+        <v-navigation-drawer 
           v-model="drawer"
-          location="left">
+          location="top">
 
           <v-list>
-              <v-list-item to="/">About Me
-              </v-list-item>
-
-              <v-list-item to="/data">Data Visualization
-              </v-list-item>
+              <v-list-item to="/">About Me</v-list-item>
+              <v-list-item to="/web">Web Development</v-list-item>
+              <v-list-item to="/data">Data Visualization</v-list-item>
+              <v-list-item to="/data-projects">Data Projects</v-list-item>
           </v-list>
         </v-navigation-drawer>
-    </v-card>
+      </div>
 
     <router-view />
+    <v-card class="flex">
+    <LowerFooter />
+    </v-card>
   </div>
 </template>
 
 <script>
+import LowerFooter from "@/components/LowerFooter.vue";
+
 export default {
+  name: "App",
+  components: {
+    LowerFooter
+},
   data: () => ({
     drawer: false,
     group: null    
@@ -107,5 +112,9 @@ h6 {
       color: #43d3e6;
     }
   }
+}
+
+.flex {
+  background: #32848f;
 }
 </style>

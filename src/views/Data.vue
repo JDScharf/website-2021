@@ -1,20 +1,26 @@
 <template>
+  <v-container>
+  <v-row>
   <v-col class="mb-4">
     <h3 class="heading-viz">
-      Tableau Data Viz
+      Data Visualizations
       <br />
     </h3>
+
     <br />
-    <p>
-      &bull; You can explore these visualizations further at my
-      <a
-        href="https://public.tableau.com/profile/jason.scharf#!/"
-        target="_blank"
-      >
-        Tableau Public Profile.</a
-      >
-    </p>
-    <br />
+        <p>
+          &bull; Created data visualization and analysis projects using publicly
+          available data sources. <br />
+
+          &bull; You can explore these visualizations further here:
+          <a
+            href="https://public.tableau.com/profile/jason.scharf#!/"
+            target="_blank"
+          >
+            Tableau Profile.</a
+          >
+        </p>
+        <br />
 
     <v-carousel :show-arrows="false" cycle height="800">
       <v-carousel-item v-for="(item, i) in items" :key="i">
@@ -23,6 +29,36 @@
     </v-carousel>
     <LowerFooter msg="test" />
   </v-col>
+</v-row>
+
+<v-row>
+      <v-col>
+        <h3 class="heading-3">
+          Map Projects - ArcGIS
+        </h3>
+        <br />
+        <p>
+          &bull; Created maps and data visualizations using publicly
+          available data sources. <br />
+
+        </p>
+        <br />
+
+        <br />
+        <v-img
+          :src="require('../assets/NYLakes.png')"
+          alt="Image of a contour map of New York State with different colors for different elevation depths."
+          class="my-3"
+          contain
+          width="100%"
+          max-height="750px"
+        />
+      </v-col>
+    </v-row>
+    <br />
+    <br />
+    <br />
+  </v-container>
 </template>
 
 Search Vuetify #Carousels The v-carousel component is used to display large
@@ -37,7 +73,7 @@ can have your slides automatically transition to the next available every 6s
 controls with :show-arrows="false".
 
 <script>
-import LowerFooter from "@/components/LowerFooter.vue";
+// import LowerFooter from "@/components/LowerFooter.vue";
 
 export default {
   data() {
@@ -60,7 +96,7 @@ export default {
         }
       ],
       components: {
-        LowerFooter
+        // LowerFooter
       }
     };
   }
