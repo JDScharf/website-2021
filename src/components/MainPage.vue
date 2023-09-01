@@ -48,6 +48,147 @@
 
     <v-row>
       <v-col>
+        <h2 class="heading-2">Services Offered</h2>
+      </v-col>
+    </v-row>
+    <br />
+
+    <v-row>
+      <v-col> 
+  <v-img
+          :src="require('../assets/icons/app-development.png')"
+          alt="Image of a computer icon"
+          class="my-3"
+          contain
+          width="100%"
+          max-height="250px"
+        />
+        <br />
+        <h3 class="heading-3">
+      Web Development
+    </h3>
+    <br />
+    <div>
+    <button>
+        <div class="text-button">
+          <v-btn
+            href="/web"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            View Web Projects
+          </v-btn>
+        </div>
+        </button>
+        </div>
+</v-col> 
+
+
+<v-col>
+  <v-img
+          :src="require('../assets/icons/data-management.png')"
+          alt="Image of a computer icon"
+          class="my-3"
+          contain
+          width="100%"
+          max-height="250px"
+        />
+        <br />
+        <h3 class="heading-3">
+      Data Management
+    </h3>
+
+    <br />
+    <button>
+        <div class="text-button">
+          <v-btn
+            href="/data-projects"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            View Data Projects
+          </v-btn>
+        </div>
+        </button>
+</v-col>
+
+<v-col>
+  <v-img
+          :src="require('../assets/icons/data-viz.png')"
+          alt="Image of a computer icon"
+          class="my-3"
+          contain
+          width="100%"
+          max-height="250px"
+        />
+        <br />
+        <h3 class="heading-3">
+      Data Visualizations
+    </h3>
+
+    <br />
+    <button>
+        <div class="text-button">
+          <v-btn
+            href="/data"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            View Data Visualizations
+          </v-btn>
+        </div>
+        </button>
+  </v-col>
+
+  <v-col>
+  <v-img
+          :src="require('../assets/icons/map-location.png')"
+          alt="Image of a computer icon"
+          class="my-3"
+          contain
+          width="100%"
+          max-height="250px"
+        />
+        <br />
+        <h3 class="heading-3">
+      Geospatial Analysis
+    </h3>
+
+    <br />
+    <button>
+        <div class="text-button">
+          <v-btn
+            href="/data"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            View GIS Projects
+          </v-btn>
+        </div>
+        </button>
+  </v-col>
+</v-row>
+<br />
+<br />
+  
+    <v-row>
+      <v-col>
         <h2 class="heading-2">Development Skills</h2>
       </v-col>
     </v-row>
