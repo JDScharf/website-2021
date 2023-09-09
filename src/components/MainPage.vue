@@ -72,7 +72,7 @@
     <button>
         <div class="text-button">
           <v-btn
-            href="/web"
+            to="/web"
             depressed
             elevation="10"
             color="#2c8591"
