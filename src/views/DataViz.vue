@@ -101,6 +101,7 @@ controls with :show-arrows="false".
 // import LowerFooter from "@/components/LowerFooter.vue";
 
 export default {
+  name: "DataViz",
   data() {
     return {
       items: [

@@ -68,7 +68,7 @@
       Web Development
     </h3>
     <br />
-    <div>
+    <!-- <div>
     <button>
         <div class="text-button">
           <v-btn
@@ -84,7 +84,7 @@
           </v-btn>
         </div>
         </button>
-        </div>
+        </div> -->
 </v-col> 
 
 
@@ -103,7 +103,7 @@
     </h3>
 
     <br />
-    <button>
+    <!-- <button>
         <div class="text-button">
           <v-btn
             href="/data-projects"
@@ -117,7 +117,7 @@
             View Data Projects
           </v-btn>
         </div>
-        </button>
+        </button> -->
 </v-col>
 
 <v-col>
@@ -135,7 +135,7 @@
     </h3>
 
     <br />
-    <button>
+    <!-- <button>
         <div class="text-button">
           <v-btn
             href="/data-viz"
@@ -149,7 +149,7 @@
             View Data Visualizations
           </v-btn>
         </div>
-        </button>
+        </button> -->
   </v-col>
 
   <v-col>
@@ -167,7 +167,7 @@
     </h3>
 
     <br />
-    <button>
+    <!-- <button>
         <div class="text-button">
           <v-btn
             href="/data-viz"
@@ -181,7 +181,7 @@
             View GIS Projects
           </v-btn>
         </div>
-        </button>
+        </button> -->
   </v-col>
 </v-row>
 <br />
