@@ -35,7 +35,7 @@
           <v-list>
               <v-list-item to="/">About Me</v-list-item>
               <v-list-item to="/web">Web Development</v-list-item>
-              <v-list-item to="/data">Data Visualization</v-list-item>
+              <v-list-item to="/data-viz">Data & GIS Visualizations</v-list-item>
               <v-list-item to="/data-projects">Data Projects</v-list-item>
           </v-list>
         </v-navigation-drawer>

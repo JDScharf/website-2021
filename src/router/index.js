@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-// import Data from "../views/Data.vue";
 
 Vue.use(VueRouter);
 
@@ -21,13 +20,13 @@ const routes = [
       import(/* webpackChunkName: "data" */ "../views/Web.vue")
   },
   {
-    path: "/data",
-    name: "Data",
+    path: "/data-viz",
+    name: "DataViz",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "data" */ "../views/Data.vue")
+      import(/* webpackChunkName: "data" */ "../views/DataViz.vue")
   },
   {
     path: "/data-projects",
