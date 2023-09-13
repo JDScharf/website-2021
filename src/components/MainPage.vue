@@ -378,6 +378,27 @@
       </v-col>
     </v-row>
     <br />
+
+    <button>
+        <div class="text-button">
+          <v-btn
+            to="/contact"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            Schedule a Consult
+          </v-btn>
+        </div>
+        </button>
+        <br />
+        <br />
+        <br />
+
+
     <router-view />
   </v-container>
 </template>
