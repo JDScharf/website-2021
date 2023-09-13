@@ -170,7 +170,7 @@
     <button>
         <div class="text-button">
           <v-btn
-            href="/data-viz"
+            to="/data-viz"
             depressed
             elevation="10"
             color="#2c8591"

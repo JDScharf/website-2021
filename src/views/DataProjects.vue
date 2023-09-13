@@ -78,6 +78,27 @@
     <br />
     <br />
     <br />
+
+    <button>
+        <div class="text-button">
+          <v-btn
+            to="/contact"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            Schedule Data Project Consult
+          </v-btn>
+        </div>
+        </button>
+
+    <br />
+    <br />
+    <br />
+
   </div>
   </v-container>
 </template>

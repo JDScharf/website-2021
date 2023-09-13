@@ -11,18 +11,30 @@
         <br />
 
         <p>
-          &bull; Created a web app allowing users to explore Spotify's API, using client side authentication, and RESTful API calls.  This allows the user to explore different musical artists based on a genre or artist they are interested in. <br />
-          &bull; Site can be visited at: 
-          <a
-            href="https://jason-spotify.netlify.app/"
-            target="_blank"
-          >jason-spotify.netlify.app</a
-          ><br />
-          &bull; Code can be found at:
+          &bull; Created a web application allowing users user to explore different musical artists based on a genre or artist they are interested in. 
+          &bull; Made using Spotify's API, client side authentication, and RESTful API calls.<br />
+          &bull; Code can be viewed at:
           <a href="https://www.github.com/JDScharf/spotify-app" target="_blank"
             >github.com/JDScharf/spotify-app</a
           >
         </p>
+        <br />
+        <button>
+        <div class="text-button">
+          <v-btn
+            href="https://jason-spotify.netlify.app/"
+            target="_blank"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            Launch Spotify Music Explorer
+          </v-btn>
+        </div>
+        </button>
       </v-col>
   </v-row>
 
@@ -164,6 +176,28 @@
     <br />
     <br />
     <br />
+
+    <br />
+    <button>
+        <div class="text-button">
+          <v-btn
+            to="/contact"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            Schedule Web Development Consult
+          </v-btn>
+        </div>
+        </button>
+  
+        <br />
+    <br />
+    <br />
+
   </v-container>
 </template>
 
