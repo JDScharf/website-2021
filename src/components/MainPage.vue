@@ -68,7 +68,7 @@
       Web Development
     </h3>
     <br />
-    <!-- <div>
+    <div>
     <button>
         <div class="text-button">
           <v-btn
@@ -84,7 +84,7 @@
           </v-btn>
         </div>
         </button>
-        </div> -->
+        </div>
 </v-col> 
 
 
@@ -103,10 +103,10 @@
     </h3>
 
     <br />
-    <!-- <button>
+    <button>
         <div class="text-button">
           <v-btn
-            href="/data-projects"
+            to="/data-projects"
             depressed
             elevation="10"
             color="#2c8591"
@@ -117,7 +117,7 @@
             View Data Projects
           </v-btn>
         </div>
-        </button> -->
+        </button>
 </v-col>
 
 <v-col>
@@ -135,10 +135,10 @@
     </h3>
 
     <br />
-    <!-- <button>
+    <button>
         <div class="text-button">
           <v-btn
-            href="/data-viz"
+            to="/data-viz"
             depressed
             elevation="10"
             color="#2c8591"
@@ -149,7 +149,7 @@
             View Data Visualizations
           </v-btn>
         </div>
-        </button> -->
+        </button>
   </v-col>
 
   <v-col>
@@ -167,7 +167,7 @@
     </h3>
 
     <br />
-    <!-- <button>
+    <button>
         <div class="text-button">
           <v-btn
             href="/data-viz"
@@ -181,7 +181,7 @@
             View GIS Projects
           </v-btn>
         </div>
-        </button> -->
+        </button>
   </v-col>
 </v-row>
 <br />
@@ -253,7 +253,7 @@
         <br />
 
         <p>
-          &bull; Helping to manage <a href="https://data.syrgov.net/"> Open Data Syracuse</a>, the City's Open Data Portal website.
+          &bull; Helping to manage <a href="https://data.syr.gov/"> Open Data Syracuse</a>, the City's Open Data Portal website.
         </p>
         <p>
           &bull; Creating Maps and Data Visualizations in ArcGIS and Tableau with public data.</p>
@@ -378,8 +378,10 @@
       </v-col>
     </v-row>
     <br />
+    <router-view />
   </v-container>
 </template>
+
 
 <script>
 //   export default {
