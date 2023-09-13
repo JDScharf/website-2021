@@ -29,7 +29,7 @@
 
       <v-col class="text-right">
         <h3 class="subheading font-weight-regular">
-         I am a hard worker, who enjoys learning and facing new challenges.  I am skilled at managing multiple projects, meeting deadlines, while always striving to provide excellent customer service to clients and stakeholders.  I would love to help your organization increase their ability to obtain, manage, and get insights from you data.
+         I am a hard worker, who enjoys learning and facing new challenges.  I am skilled at managing multiple projects, meeting deadlines, while always striving to provide excellent customer service to clients and stakeholders.  I would love to help your organization increase their ability to obtain, manage, and get insights from your data.
         </h3>
         <br />
         <h4 class="heading-4">e: 
