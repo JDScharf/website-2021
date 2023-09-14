@@ -22,7 +22,7 @@
         <button>
         <div class="text-button">
           <v-btn
-            href="https://jason-spotify.netlify.app/"
+            href="https://spotify-music-explorer.netlify.app/"
             target="_blank"
             depressed
             elevation="10"

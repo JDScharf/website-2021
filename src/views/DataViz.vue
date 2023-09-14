@@ -11,15 +11,26 @@
         <p>
           &bull; Created data visualization and analysis projects using publicly
           available data sources. <br />
+        </p>
+        <br />
 
-          &bull; You can explore these visualizations further here:
-          <a
+        <button>
+        <div class="text-button">
+          <v-btn
             href="https://public.tableau.com/profile/jason.scharf#!/"
             target="_blank"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
           >
-            Tableau Profile.</a
-          >
-        </p>
+            View Tableau Profile
+          </v-btn>
+        </div>
+        </button>
+        <br />
         <br />
 
     <v-carousel :show-arrows="false" cycle height="800">

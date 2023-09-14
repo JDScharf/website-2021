@@ -154,7 +154,7 @@
 
   <v-col>
   <v-img
-          :src="require('../assets/icons/map-location.png')"
+          :src="require('../assets/icons/map-256.png')"
           alt="Image of a computer icon"
           class="my-3"
           contain
@@ -184,6 +184,7 @@
         </button>
   </v-col>
 </v-row>
+
 <br />
 <br />
   
