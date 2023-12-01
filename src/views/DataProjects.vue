@@ -100,6 +100,11 @@
     <br />
 
   </div>
+
+  <!-- This code will embed a Discord widget in your site -->
+  <!-- <div>
+    <iframe src="https://e.widgetbot.io/channels/662120704107479063/662120704564789272" allow="clipboard-write" height="300" width="800"></iframe>
+  </div> -->
   </v-container>
 </template>
 

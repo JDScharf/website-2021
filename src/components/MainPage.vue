@@ -399,10 +399,18 @@
         <br />
         <br />
 
-
     <router-view />
   </v-container>
+
+  <!-- <widgetbot
+    server="662120704107479063"
+    channel="662120704564789272"
+    width="800"
+    height="600"
+></widgetbot> -->
 </template>
+
+
 
 
 <script>
