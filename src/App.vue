@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-
-  <!-- Original nav bar -->
+  <v-app>
+    <div id="app">
+      <!-- Original nav bar -->
       <v-app-bar
         color="primary"
         class="fill height d-flex justify-space-between align-center"
@@ -19,33 +19,34 @@
         <v-toolbar-title>Scharf Consulting</v-toolbar-title>
 
         <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
         <v-btn to="/contact">Get in Touch</v-btn>
       </v-app-bar>
-        <!-- <v-main style="height: 500px;">
-        <v-card-text>
-          The navigation drawer will appear from the bottom on smaller size screens.
-        </v-card-text>
-      </v-main> -->
 
-    <div>
-        <v-navigation-drawer 
+      <div>
+        <v-navigation-drawer
           v-model="drawer"
-          location="top">
-
+          location="top"
+          class="navigation-drawer"
+          :class="{ 'drawer-open': drawer }"
+        >
           <v-list>
-              <v-list-item to="/">About Me</v-list-item>
-              <v-list-item to="/web">Web Development</v-list-item>
-              <v-list-item to="/data-projects">Data Projects</v-list-item>
-              <v-list-item to="/data-viz">Data & GIS Visualizations</v-list-item>
+            <v-list-item to="/">About Me</v-list-item>
+            <v-list-item to="/web">Web Development</v-list-item>
+            <v-list-item to="/data-projects">Data Projects</v-list-item>
+            <v-list-item to="/data-viz">Data & GIS Visualizations</v-list-item>
           </v-list>
         </v-navigation-drawer>
       </div>
 
-    <router-view />
-    <v-card class="flex">
-    <LowerFooter />
-    </v-card>
-  </div>
+      <v-main :class="{ 'content-pushed': drawer }">
+      <router-view />
+      <v-card class="flex">
+        <LowerFooter />
+      </v-card>
+    </v-main>
+    </div>
+  </v-app>
 </template>
 
 <script>
@@ -54,13 +55,13 @@ import LowerFooter from "@/components/LowerFooter.vue";
 export default {
   name: "App",
   components: {
-    LowerFooter
-},
+    LowerFooter,
+  },
   data: () => ({
     drawer: false,
-    group: null    
+    group: null,
   }),
-}
+};
 </script>
 
 <style lang="scss">
@@ -93,12 +94,24 @@ h6 {
 
 #app {
   font-family: "Crimson Text", sans-serif;
-
   // Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.navigation-drawer {
+  transition: height 0.3s ease;
+}
+
+.drawer-open {
+  height: 200px; /* Adjust based on your drawer height */
+}
+
+.content-pushed {
+  margin-top: 50px; /* Same height as the drawer */
+  transition: margin-top 0.3s ease;
 }
 
 .nav {
