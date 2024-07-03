@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-
-  <!-- Original nav bar -->
       <v-app-bar
         color="primary"
-        class="fill height d-flex justify-space-between align-center"
       >
         <template v-slot:img="{ props }">
           <v-img
@@ -16,23 +13,37 @@
         <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer">
         </v-app-bar-nav-icon>
 
-        <v-toolbar-title>Scharf Consulting</v-toolbar-title>
+        <v-toolbar-title>Jason Scharf</v-toolbar-title>
 
         <v-spacer></v-spacer>
         <v-btn to="/contact">Get in Touch</v-btn>
       </v-app-bar>
-        <!-- <v-main style="height: 500px;">
-        <v-card-text>
-          The navigation drawer will appear from the bottom on smaller size screens.
-        </v-card-text>
-      </v-main> -->
 
     <div>
         <v-navigation-drawer 
           v-model="drawer"
-          location="top">
+          absolute
+          bottom
+          temporary>
 
-          <v-list>
+          <v-list
+          nav
+          dense>
+
+          <v-list-item class="px-2">
+        <v-list-item-avatar>
+          <v-img src="./assets/jason-head-min.jpg"></v-img>
+        </v-list-item-avatar>
+
+        <v-list-item-title>Jason Scharf</v-list-item-title>
+
+        <v-btn
+          icon
+          @click.stop="drawer = !drawer"
+        >
+          <v-icon>mdi-chevron-left</v-icon>
+        </v-btn></v-list-item>
+
               <v-list-item to="/">About Me</v-list-item>
               <v-list-item to="/web">Web Development</v-list-item>
               <v-list-item to="/data-projects">Data Projects</v-list-item>
@@ -46,6 +57,7 @@
     <LowerFooter />
     </v-card>
   </div>
+
 </template>
 
 <script>
@@ -65,6 +77,10 @@ export default {
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet');
+
+.custom-spacer {
+  height: 50px;
+}
 
 a:link {
   color: #206169;
@@ -102,7 +118,7 @@ h6 {
 }
 
 .nav {
-  // padding: 30px;
+  margin-bottom: 500px;
 
   a {
     font-weight: bold;

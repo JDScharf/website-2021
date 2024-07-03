@@ -1,5 +1,6 @@
 <template>
   <v-container>
+    <v-spacer class="custom-spacer"></v-spacer>
  <v-row>
       <v-col>
         <h2 class="heading-2">Web Development Projects</h2>

@@ -1,17 +1,17 @@
 <template>
   <v-container>
+    <v-spacer class="custom-spacer"></v-spacer>
   <v-row>
   <v-col class="mb-4">
     <h2 class="heading-viz">
       Data Visualizations
       <br />
     </h2>
-
     <br />
-        <p>
-          &bull; Created data visualization and analysis projects using publicly
-          available data sources. <br />
-        </p>
+
+    <h3 class="heading-3">
+          Tableau Projects
+        </h3>
         <br />
 
         <button>
@@ -45,6 +45,31 @@
 <br />
 <br />
 <br />
+<br />
+
+<v-row>
+      <v-col>
+        <h3 class="heading-3">
+          JavaScript D3 Code Violations Bubble Chart
+        </h3>
+        <br />
+        <p>
+          &bull; Created a Bubble Chart using tallies from Code violations data as part of a tutorial on Syracuse's Open Data portal.<br />
+          &bull; Did some transformations of the data in Python, then created the chart in D3 using Observable.<br />
+          &bull; Code can be viewed at:
+          <a href="https://github.com/CityofSyracuse/D3-Tutorial-Open-Data/blob/main/README.md" target="_blank"
+            >github.com/CityofSyracuse/D3-Tutorial-Open-Data/blob/main/README.md</a
+          >
+        </p>
+        <br />
+
+        <iframe src="https://observablehq.com/embed/711195ecdac1c2c9?cells=chart" width="80%" height="1000" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+      </v-col>
+    </v-row>
+
+    <br>
+    <br>
+    <br>
 
 <v-row>
       <v-col>
