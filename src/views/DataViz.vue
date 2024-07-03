@@ -1,5 +1,6 @@
 <template>
   <v-container>
+    <v-spacer class="custom-spacer"></v-spacer>
   <v-row>
   <v-col class="mb-4">
     <h2 class="heading-viz">

@@ -1,10 +1,7 @@
 <template>
-  <v-app>
-    <div id="app">
-      <!-- Original nav bar -->
+  <div id="app">
       <v-app-bar
         color="primary"
-        class="fill height d-flex justify-space-between align-center"
       >
         <template v-slot:img="{ props }">
           <v-img
@@ -16,37 +13,51 @@
         <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer">
         </v-app-bar-nav-icon>
 
-        <v-toolbar-title>Scharf Consulting</v-toolbar-title>
+        <v-toolbar-title>Jason Scharf</v-toolbar-title>
 
-        <v-spacer></v-spacer>
         <v-spacer></v-spacer>
         <v-btn to="/contact">Get in Touch</v-btn>
       </v-app-bar>
 
-      <div>
-        <v-navigation-drawer
+    <div>
+        <v-navigation-drawer 
           v-model="drawer"
-          location="top"
-          class="navigation-drawer"
-          :class="{ 'drawer-open': drawer }"
+          absolute
+          bottom
+          temporary>
+
+          <v-list
+          nav
+          dense>
+
+          <v-list-item class="px-2">
+        <v-list-item-avatar>
+          <v-img src="./assets/jason-head-min.jpg"></v-img>
+        </v-list-item-avatar>
+
+        <v-list-item-title>Jason Scharf</v-list-item-title>
+
+        <v-btn
+          icon
+          @click.stop="drawer = !drawer"
         >
-          <v-list>
-            <v-list-item to="/">About Me</v-list-item>
-            <v-list-item to="/web">Web Development</v-list-item>
-            <v-list-item to="/data-projects">Data Projects</v-list-item>
-            <v-list-item to="/data-viz">Data & GIS Visualizations</v-list-item>
+          <v-icon>mdi-chevron-left</v-icon>
+        </v-btn></v-list-item>
+
+              <v-list-item to="/">About Me</v-list-item>
+              <v-list-item to="/web">Web Development</v-list-item>
+              <v-list-item to="/data-projects">Data Projects</v-list-item>
+              <v-list-item to="/data-viz">Data & GIS Visualizations</v-list-item>
           </v-list>
         </v-navigation-drawer>
       </div>
 
-      <v-main :class="{ 'content-pushed': drawer }">
-      <router-view />
-      <v-card class="flex">
-        <LowerFooter />
-      </v-card>
-    </v-main>
-    </div>
-  </v-app>
+    <router-view />
+    <v-card class="flex">
+    <LowerFooter />
+    </v-card>
+  </div>
+
 </template>
 
 <script>
@@ -55,17 +66,21 @@ import LowerFooter from "@/components/LowerFooter.vue";
 export default {
   name: "App",
   components: {
-    LowerFooter,
-  },
+    LowerFooter
+},
   data: () => ({
     drawer: false,
-    group: null,
+    group: null    
   }),
-};
+}
 </script>
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet');
+
+.custom-spacer {
+  height: 50px;
+}
 
 a:link {
   color: #206169;
@@ -94,6 +109,7 @@ h6 {
 
 #app {
   font-family: "Crimson Text", sans-serif;
+
   // Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -101,21 +117,8 @@ h6 {
   color: #2c3e50;
 }
 
-.navigation-drawer {
-  transition: height 0.3s ease;
-}
-
-.drawer-open {
-  height: 200px; /* Adjust based on your drawer height */
-}
-
-.content-pushed {
-  margin-top: 50px; /* Same height as the drawer */
-  transition: margin-top 0.3s ease;
-}
-
 .nav {
-  // padding: 30px;
+  margin-bottom: 500px;
 
   a {
     font-weight: bold;

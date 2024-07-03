@@ -1,5 +1,7 @@
 <template>
   <v-container>
+    <!-- Add spacer for 200px empty space -->
+    <v-spacer class="custom-spacer"></v-spacer>
     <v-row>
       <v-col class="text-left">
         <br />
@@ -19,7 +21,7 @@
         <v-card id="rounded-card" class="justify-center" max-height="350" 
         min-height="350">
           <v-img
-            :src="require('../assets/Jason-WS.jpg')"
+            :src="require('../assets/jason-WS-v2.jpeg')"
             class="rounded-img"
             max-height="350"
             max-width="350"
@@ -391,7 +393,7 @@
             rounded
             dark
           >
-            Schedule a Consult
+            Get in Touch
           </v-btn>
         </div>
         </button>
@@ -450,6 +452,10 @@
 </script>
 
 <style>
+.custom-spacer {
+  height: 50px;
+}
+
 #rounded-card {
   border-radius: 50%; 
 }
