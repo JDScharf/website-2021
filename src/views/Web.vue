@@ -74,11 +74,14 @@
             target="_blank"
             >github.com/code-for-syracuse/CitizensReviewBoardChatBot</a
           ><br />
-          &bull; Bot can be tested by texting “Hi” to (315) 284-8090
+          <!-- &bull; Bot can be tested by texting “Hi” to (315) 284-8090 -->
+          &bull; Bot is not currently working 😢 due to recent updates to Twilio's Application to Person (A2P) requirements.  I'm working on having updated by August 2024.  <br />
+          &bull; Screenshot of bot interaction can be seen below.
         </p>
         <br />
 
-        <button>
+        <!-- Issus with Twilio, not working now :( -->
+        <!-- <button>
           <div class="text-button">
             <v-btn
               href="sms:3152848090?&body=Hi"
@@ -92,7 +95,7 @@
               Test Chatbot
             </v-btn>
           </div>
-        </button>
+        </button> -->
       </v-col>
     </v-row>
 

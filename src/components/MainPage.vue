@@ -16,30 +16,39 @@
         <br />
       </v-col>
 
-      <v-col id="middle-column"
-      :align-self="center">
-        <v-card id="rounded-card" class="justify-center" max-height="350" 
-        min-height="350">
+      <v-col id="middle-column" :align-self="center">
+        <v-card
+          id="rounded-card"
+          class="justify-center"
+          max-height="350"
+          min-height="350"
+        >
           <v-img
             :src="require('../assets/jason-WS-v2.jpeg')"
             class="rounded-img"
             max-height="350"
             max-width="350"
           />
-          </v-card>
+        </v-card>
       </v-col>
 
       <v-col class="text-right">
         <h3 class="subheading font-weight-regular">
-         I am a hard worker, who enjoys learning and facing new challenges.  I am skilled at managing multiple projects, meeting deadlines, while always striving to provide excellent customer service to clients and stakeholders.  I would love to help your organization increase their ability to obtain, manage, and get insights from your data.
+          I am a hard worker, who enjoys learning and facing new challenges. I
+          am skilled at managing multiple projects, meeting deadlines, while
+          always striving to provide excellent customer service to clients and
+          stakeholders. I would love to help your organization increase their
+          ability to obtain, manage, and get insights from your data.
         </h3>
         <br />
-        <h4 class="heading-4">e: 
+        <h4 class="heading-4">
+          e:
           <a href="mailto:jasonscharf3@gmail.com">jasonscharf3@gmail.com</a>
-        <br />
-        <br />
-        ph: <a href="sms:3154474501">
-          (315) 447-4501
+          <br />
+          <br />
+          ph:
+          <a href="sms:3154474501">
+            (315) 447-4501
           </a>
         </h4>
       </v-col>
@@ -55,141 +64,150 @@
     </v-row>
     <br />
 
+    <template> </template>
+
     <v-row>
-      <v-col> 
-  <v-img
-          :src="require('../assets/icons/app-development.png')"
-          alt="Image of a computer icon"
-          class="my-3"
-          contain
-          width="100%"
-          max-height="250px"
-        />
-        <br />
-        <h3 class="heading-3">
-      Web Development
-    </h3>
+      <v-col>
+        <v-card class="service-card" shaped outlined color="#FFECB3">
+          <v-img
+            :src="require('../assets/icons/app-development.png')"
+            alt="Image of a computer icon"
+            class="my-3"
+            contain
+            width="100%"
+            max-height="250px"
+          />
+          <br />
+          <h3 class="heading-3">
+            Web Development
+          </h3>
+          <br />
+          <div>
+            <button>
+              <div class="text-button">
+                <v-btn
+                  to="/web"
+                  depressed
+                  elevation="10"
+                  color="#2c8591"
+                  raised
+                  rounded
+                  dark
+                >
+                  View Web Projects
+                </v-btn>
+              </div>
+            </button>
+          </div>
+        </v-card>
+      </v-col>
+
+      <v-col>
+        <v-card class="service-card" shaped outlined color="#FFECB3">
+          <v-img
+            :src="require('../assets/icons/data-management.png')"
+            alt="Image of a computer icon"
+            class="my-3"
+            contain
+            width="100%"
+            max-height="250px"
+          />
+          <br />
+          <h3 class="heading-3">
+            Data Management
+          </h3>
+
+          <br />
+          <button>
+            <div class="text-button">
+              <v-btn
+                to="/data-projects"
+                depressed
+                elevation="10"
+                color="#2c8591"
+                raised
+                rounded
+                dark
+              >
+                View Data Projects
+              </v-btn>
+            </div>
+          </button>
+        </v-card>
+      </v-col>
+
+      <v-col>
+        <v-card class="service-card" shaped outlined color="#FFECB3">
+          <v-img
+            :src="require('../assets/icons/data-viz.png')"
+            alt="Image of a computer icon"
+            class="my-3"
+            contain
+            width="100%"
+            max-height="250px"
+          />
+          <br />
+          <h3 class="heading-3">
+            Data Visualizations
+          </h3>
+
+          <br />
+          <button>
+            <div class="text-button">
+              <v-btn
+                to="/data-viz"
+                depressed
+                elevation="10"
+                color="#2c8591"
+                raised
+                rounded
+                dark
+              >
+                View Data Visualizations
+              </v-btn>
+            </div>
+          </button>
+        </v-card>
+      </v-col>
+
+      <v-col>
+        <v-card class="service-card" shaped outlined color="#FFECB3">
+          <v-img
+            :src="require('../assets/icons/map-256.png')"
+            alt="Image of a computer icon"
+            class="my-3"
+            contain
+            width="100%"
+            max-height="250px"
+          />
+          <br />
+          <h3 class="heading-3">
+            Geospatial Analysis
+          </h3>
+
+          <br />
+          <button>
+            <div class="text-button">
+              <v-btn
+                to="/data-viz"
+                depressed
+                elevation="10"
+                color="#2c8591"
+                raised
+                rounded
+                dark
+              >
+                View GIS Projects
+              </v-btn>
+            </div>
+          </button>
+        </v-card>
+      </v-col>
+    </v-row>
+
     <br />
-    <div>
-    <button>
-        <div class="text-button">
-          <v-btn
-            to="/web"
-            depressed
-            elevation="10"
-            color="#2c8591"
-            raised
-            rounded
-            dark
-          >
-            View Web Projects
-          </v-btn>
-        </div>
-        </button>
-        </div>
-</v-col> 
-
-
-<v-col>
-  <v-img
-          :src="require('../assets/icons/data-management.png')"
-          alt="Image of a computer icon"
-          class="my-3"
-          contain
-          width="100%"
-          max-height="250px"
-        />
-        <br />
-        <h3 class="heading-3">
-      Data Management
-    </h3>
-
     <br />
-    <button>
-        <div class="text-button">
-          <v-btn
-            to="/data-projects"
-            depressed
-            elevation="10"
-            color="#2c8591"
-            raised
-            rounded
-            dark
-          >
-            View Data Projects
-          </v-btn>
-        </div>
-        </button>
-</v-col>
 
-<v-col>
-  <v-img
-          :src="require('../assets/icons/data-viz.png')"
-          alt="Image of a computer icon"
-          class="my-3"
-          contain
-          width="100%"
-          max-height="250px"
-        />
-        <br />
-        <h3 class="heading-3">
-      Data Visualizations
-    </h3>
-
-    <br />
-    <button>
-        <div class="text-button">
-          <v-btn
-            to="/data-viz"
-            depressed
-            elevation="10"
-            color="#2c8591"
-            raised
-            rounded
-            dark
-          >
-            View Data Visualizations
-          </v-btn>
-        </div>
-        </button>
-  </v-col>
-
-  <v-col>
-  <v-img
-          :src="require('../assets/icons/map-256.png')"
-          alt="Image of a computer icon"
-          class="my-3"
-          contain
-          width="100%"
-          max-height="250px"
-        />
-        <br />
-        <h3 class="heading-3">
-      Geospatial Analysis
-    </h3>
-
-    <br />
-    <button>
-        <div class="text-button">
-          <v-btn
-            to="/data-viz"
-            depressed
-            elevation="10"
-            color="#2c8591"
-            raised
-            rounded
-            dark
-          >
-            View GIS Projects
-          </v-btn>
-        </div>
-        </button>
-  </v-col>
-</v-row>
-
-<br />
-<br />
-  
     <v-row>
       <v-col>
         <h2 class="heading-2">Development Skills</h2>
@@ -241,7 +259,7 @@
     <br />
     <br />
     <br />
-
+    <!-- 
     <v-row>
       <v-col>
         <h2 class="heading-2">Experience</h2>
@@ -256,10 +274,14 @@
         <br />
 
         <p>
-          &bull; Helping to manage <a href="https://data.syr.gov/"> Open Data Syracuse</a>, the City's Open Data Portal website.
+          &bull; Helping to manage
+          <a href="https://data.syr.gov/"> Open Data Syracuse</a>, the City's
+          Open Data Portal website.
         </p>
         <p>
-          &bull; Creating Maps and Data Visualizations in ArcGIS and Tableau with public data.</p>
+          &bull; Creating Maps and Data Visualizations in ArcGIS and Tableau
+          with public data.
+        </p>
       </v-col>
     </v-row>
 
@@ -284,8 +306,7 @@
     <v-row>
       <v-col>
         <h3 class="heading-3">
-          Kirkwork Software Development, Syracuse, NY —
-          Software Developer
+          Kirkwork Software Development, Syracuse, NY — Software Developer
         </h3>
         <h5 class="heading-5">
           January 2021 - November 2021 (Part-time and contract employment)
@@ -293,7 +314,8 @@
         <br />
 
         <p>
-          &bull; Assisted in adding features to an interactive desktop software application using Vue.js, RESTful API’s, and Postman for API testing.
+          &bull; Assisted in adding features to an interactive desktop software
+          application using Vue.js, RESTful API’s, and Postman for API testing.
         </p>
       </v-col>
     </v-row>
@@ -310,9 +332,8 @@
         <br />
 
         <p>
-          &bull; Helped ensure safety and permanency in foster care, I
-          reached 99% successful monthly contacts, surpassing federal standards
-          of 95%.
+          &bull; Helped ensure safety and permanency in foster care, I reached
+          99% successful monthly contacts, surpassing federal standards of 95%.
         </p>
       </v-col>
     </v-row>
@@ -380,26 +401,26 @@
         </p>
       </v-col>
     </v-row>
-    <br />
+    <br />  -->
 
     <button>
-        <div class="text-button">
-          <v-btn
-            to="/contact"
-            depressed
-            elevation="10"
-            color="#2c8591"
-            raised
-            rounded
-            dark
-          >
-            Get in Touch
-          </v-btn>
-        </div>
-        </button>
-        <br />
-        <br />
-        <br />
+      <div class="text-button">
+        <v-btn
+          to="/contact"
+          depressed
+          elevation="10"
+          color="#2c8591"
+          raised
+          rounded
+          dark
+        >
+          Get in Touch
+        </v-btn>
+      </div>
+    </button>
+    <br />
+    <br />
+    <br />
 
     <router-view />
   </v-container>
@@ -412,16 +433,13 @@
 ></widgetbot> -->
 </template>
 
-
-
-
 <script>
 //   export default {
 //     name: 'MainPage',
 //       data: () => ({
 //         myVid: "",
 //       }),
-//       methods: {  
+//       methods: {
 //         // 3rd Try
 //         muteGame() {
 //           [].slice.call(document.querySelectorAll('audio')).forEach(function(audio) {
@@ -442,7 +460,7 @@
 //             [].forEach.call(elems, function(elem) { this.muteMe(elem); });
 //         },
 //           // muteSound() {
-//           //   localStorage.mute = 1 
+//           //   localStorage.mute = 1
 //           //   // - Number(localStorage.mute);
 //           //   // this will result in `.mute` being either '0' or '1' (strings)
 //           //   // perform mute operation too, if a sound is currently playing, if you want
@@ -457,13 +475,13 @@
 }
 
 #rounded-card {
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 #middle-column {
   justify-content: center;
 }
 .v-sheet.v-card:not(.v-sheet--outlined) {
-      box-shadow: none
+  box-shadow: none;
 }
 .text-right {
   padding-top: 35px;
@@ -471,6 +489,9 @@
 .boxed {
   border: 1px solid rgb(1, 2, 1);
   max-width: 100px;
+}
+.service-card {
+  padding: 10%;
 }
 
 .heading-name {
