@@ -37,20 +37,10 @@
           I am a hard worker, who enjoys learning and facing new challenges. I
           am skilled at managing multiple projects, meeting deadlines, while
           always striving to provide excellent customer service to clients and
-          stakeholders. I would love to help your organization increase their
-          ability to obtain, manage, and get insights from your data.
+          stakeholders. <br /> <br />
+          I would love to help you or your team increase their
+          ability to obtain, manage, and get insights from your data!
         </h3>
-        <br />
-        <h4 class="heading-4">
-          e:
-          <a href="mailto:jasonscharf3@gmail.com">jasonscharf3@gmail.com</a>
-          <br />
-          <br />
-          ph:
-          <a href="sms:3154474501">
-            (315) 447-4501
-          </a>
-        </h4>
       </v-col>
     </v-row>
     <br />
@@ -68,7 +58,7 @@
 
     <v-row>
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFECB3">
+        <v-card class="service-card" shaped outlined color="#FFE0B2">
           <v-img
             :src="require('../assets/icons/app-development.png')"
             alt="Image of a computer icon"
@@ -103,7 +93,7 @@
       </v-col>
 
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFECB3">
+        <v-card class="service-card" shaped outlined color="#FFE0B2">
           <v-img
             :src="require('../assets/icons/data-management.png')"
             alt="Image of a computer icon"
@@ -137,7 +127,7 @@
       </v-col>
 
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFECB3">
+        <v-card class="service-card" shaped outlined color="#FFE0B2">
           <v-img
             :src="require('../assets/icons/data-viz.png')"
             alt="Image of a computer icon"
@@ -163,7 +153,7 @@
                 rounded
                 dark
               >
-                View Data Visualizations
+                View Visualizations
               </v-btn>
             </div>
           </button>
@@ -171,7 +161,7 @@
       </v-col>
 
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFECB3">
+        <v-card class="service-card" shaped outlined color="#FFE0B2">
           <v-img
             :src="require('../assets/icons/map-256.png')"
             alt="Image of a computer icon"
@@ -208,7 +198,7 @@
     <br />
     <br />
 
-    <v-row>
+    <!-- <v-row>
       <v-col>
         <h2 class="heading-2">Development Skills</h2>
       </v-col>
@@ -258,8 +248,8 @@
     </v-row>
     <br />
     <br />
-    <br />
-    <!-- 
+    <br /> 
+    
     <v-row>
       <v-col>
         <h2 class="heading-2">Experience</h2>

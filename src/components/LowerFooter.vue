@@ -1,27 +1,31 @@
 <template>
-  <v-footer dark padless>
-    <v-card class="flex" flat tile>
-      <v-card-title class="teal">
-        <!--
-  
-        <strong class="subheading">Check my social media to learn more!</strong>
-
-        <v-spacer></v-spacer>
-
+  <v-footer
+    padless
+  >
+    <v-card
+      flat
+      tile
+      class="flex"
+      color="#80DEEA"
+    >
+      <v-card-text>
         <v-btn
           v-for="icon in icons"
-          :key="icon"
-          class="mx-4"
-          dark
+          :key="icon.name"
+          :href="icon.link"
+          class="mx-4 white--text"
           icon
         >
-          <v-icon size="24px">{{ icon }}</v-icon>
+          <v-icon size="24px">
+            {{ icon.name }}
+          </v-icon>
         </v-btn>
+      </v-card-text>
 
--->
-      </v-card-title>
-      <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Scharf Consulting</strong>
+      <v-divider></v-divider>
+
+      <v-card-text class="white--text">
+        {{ new Date().getFullYear() }} — <strong>Jason Scharf Designs</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -30,13 +34,17 @@
 <script>
 export default {
   data: () => ({
-    icons: ["mdi-email", "mdi-github", "mdi-twitter", "mdi-linkedin"]
+    icons: [
+      { name: "mdi-cellphone", link: "sms:3154474501"},
+      { name: "mdi-email", link: "mailto:jasonscharf3@gmail.com" },
+      { name: "mdi-github", link: "https://github.com/jdscharf" },
+      { name: "mdi-linkedin", link: "https://www.linkedin.com/in/jason-d-scharf" }
+    ]
   })
 };
 </script>
 
 <style>
-.flex {
-  background: #32848f;
-}
+/* Enter style info
+*/
 </style>
