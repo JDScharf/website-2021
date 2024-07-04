@@ -20,6 +20,15 @@ const routes = [
       import(/* webpackChunkName: "data" */ "../views/Web.vue")
   },
   {
+    path: "/data-projects",
+    name: "DataProjects",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "data" */ "../views/DataProjects.vue")
+  },
+  {
     path: "/data-viz",
     name: "DataViz",
     // route level code-splitting
@@ -29,13 +38,13 @@ const routes = [
       import(/* webpackChunkName: "data" */ "../views/DataViz.vue")
   },
   {
-    path: "/data-projects",
-    name: "DataProjects",
+    path: "/GIS",
+    name: "GIS",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "data" */ "../views/DataProjects.vue")
+      import(/* webpackChunkName: "data" */ "../views/GIS.vue")
   },
   {
     path: "/contact",

@@ -23,8 +23,8 @@
         <v-navigation-drawer 
           v-model="drawer"
           absolute
-          bottom
-          temporary>
+          temporary
+          @click.stop="drawer = !drawer">
 
           <v-list
           nav
@@ -47,7 +47,8 @@
               <v-list-item to="/">About Me</v-list-item>
               <v-list-item to="/web">Web Development</v-list-item>
               <v-list-item to="/data-projects">Data Projects</v-list-item>
-              <v-list-item to="/data-viz">Data & GIS Visualizations</v-list-item>
+              <v-list-item to="/data-viz">Data Visualizations</v-list-item>
+              <v-list-item to="/GIS">GIS Projects</v-list-item>
           </v-list>
         </v-navigation-drawer>
       </div>

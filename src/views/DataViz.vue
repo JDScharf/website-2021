@@ -62,35 +62,26 @@
           >
         </p>
         <br />
-
-        <iframe src="https://observablehq.com/embed/711195ecdac1c2c9?cells=chart" width="80%" height="1000" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
       </v-col>
     </v-row>
-
-    <br>
-    <br>
-    <br>
-
-<v-row>
+    <template>
+  <v-container fluid>
+    <v-row>
       <v-col>
-        <h2 class="heading-viz">
-          Geospatial (GIS) Projects
-        </h2>
-        <br />
-        <h3 class="heading-3">
-          Syracuse Interactive Crime Map
-        </h3>
-        <br />
-        <p>
-          &bull; Helped create the data pipeline to pull the crime data and do some data cleaning in Python.<br />
-          &bull; Used ArcPy to geocode the 100 block address and transforming the resulting projection, into Latitude and Longitude, and update the data layer weekly.<br />
-          &bull; Led a small team to build and design the map below in ArcGIS Online.<br />
-        </p>
-        <br />
-
-        <iframe src="https://syr.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=3a5a6e90d15042a8ab39817211f3a3de" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+        <div class="iframe-container">
+          <iframe
+            src="https://observablehq.com/embed/711195ecdac1c2c9?cells=chart"
+            frameborder="0"
+            style="border:0;"
+            class="responsive-iframe"
+          >
+            iFrames are not supported on this page.
+          </iframe>
+        </div>
       </v-col>
     </v-row>
+  </v-container>
+</template>
 
     <br>
     <br>
@@ -98,29 +89,7 @@
 
     <v-row>
       <v-col>
-        <h3 class="heading-3">
-          Massachussets Roads & Parks Map
-        </h3>
-        <br />
-        <p>
-          &bull; Made as part of ESRI's Cartography course.<br />
-          &bull; Created in ArcGIS Pro.</p>
-
-        <v-img
-          :src="require('../assets/MassLayout.jpg')"
-          alt="Image of a map of Massachussets"
-          class="my-3"
-          contain
-          width="100%"
-          max-height="1500px"
-        />
-      </v-col>
-    </v-row>
-    <br />
-    <br />
-    <br />
-
-    <button>
+        <button>
         <div class="text-button">
           <v-btn
             to="/contact"
@@ -135,6 +104,10 @@
           </v-btn>
         </div>
         </button>
+      </v-col>
+    </v-row>
+
+   
 
     <br />
     <br />
@@ -189,6 +162,34 @@ export default {
 .heading-viz {
   color: #2c8591;
   font-size: 40px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Adjust the height for larger screens */
+@media (min-width: 600px) {
+  .iframe-container {
+    padding-top: 90%; /* This makes the height around 800px for wider screens */
+  }
+}
+
+/* Adjust the height for smaller screens */
+@media (max-width: 599px) {
+  .iframe-container {
+    padding-top: 125%; /* This increases the height for smaller screens */
+  }
 }
 /*
 .carousel-container {
