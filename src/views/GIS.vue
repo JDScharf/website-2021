@@ -22,6 +22,24 @@
       </v-col>
     </v-row>
 
+    <v-row>
+      <v-col>
+        <br />
+        <h3 class="heading-3">
+          Syracuse Rental Registry Map
+        </h3>
+        <br />
+        <p>
+          &bull; Helped create the data pipeline to pull the crime data and do some data cleaning in Python.<br />
+          &bull; Joining the code violations to the Syracuse City Parcel layer to get Lat & Long info.<br />
+          &bull; Led a small team to build and design the map below in ArcGIS Online.<br />
+        </p>
+        <br />
+
+        <iframe src="https://experience.arcgis.com/experience/b6fbbf5bf6084a00a57693cabacf5414/" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
+      </v-col>
+    </v-row>
+
     <br>
     <br>
     <br>
