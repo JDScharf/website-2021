@@ -13,7 +13,7 @@
           <br />
 
           <p>
-            &bull; After becoming familiar with Syracuse's auuto-update Python codebase which managed
+            &bull; After becoming familiar with Syracuse's auto-update Python codebase which managed
             and updated datasets, I helped add eight more data pipelines, pulling
             data from on-premise and our Azure data warehouse to feed Syracuse’s
             open data portal using ESRI's Python API.<br />
