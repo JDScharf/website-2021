@@ -13,7 +13,7 @@
         <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer">
         </v-app-bar-nav-icon>
 
-        <v-toolbar-title>Jason Scharf</v-toolbar-title>
+        <v-toolbar-title to="/"><router-link to="/" style="text-decoration: none; color: inherit;">Jason Scharf</router-link></v-toolbar-title>
 
         <v-spacer></v-spacer>
         <v-btn to="/contact">Get in Touch</v-btn>
@@ -52,8 +52,12 @@
           </v-list>
         </v-navigation-drawer>
       </div>
+    <v-app>
+      <v-main>
+        <router-view />
+      </v-main>
+    </v-app>
 
-    <router-view />
     <v-card class="flex">
     <LowerFooter />
     </v-card>
@@ -109,6 +113,7 @@ h6 {
 }
 
 #app {
+  min-height: 100vh;
   font-family: "Crimson Text", sans-serif;
 
   // Avenir, Helvetica, Arial, sans-serif;
