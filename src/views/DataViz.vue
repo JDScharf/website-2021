@@ -9,6 +9,37 @@
     </h2>
     <br />
 
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
+          City of Syracuse Sanitation - PowerBI Dashboard
+        </h3>
+        <br />
+        <p>
+          &bull;  To help provide a real-time view into department metrics, collaborated with department heads and User Interface Designer to create a dashboard.<br />
+          &bull; Used PowerBI for Data Visualization, along with Dax queries.<br />
+          &bull; Used Figma to create mockups to share with executive decision makers for their input and feedback.
+        </p>
+        <br />
+      </v-col>
+    </v-row>
+    <!-- <template>
+  <v-container fluid> -->
+    <!-- <v-row>
+      <v-col> -->
+        <!-- <div class="powerbi-iframe-container"> -->
+          <iframe title="Illegal Setouts Dashboard" width="100%" height="50%" src="https://app.powerbigov.us/view?r=eyJrIjoiMGI5OGQ5Y2YtZDA2Ny00ZmY4LTk4NmEtZDlhM2I3MzU4ODRkIiwidCI6ImUwYWFjNjk1LWZkNWItNDViMi1iZWQzLWQ5M2VjNWMwYzZjZSJ9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+        <!-- </div> -->
+        <!-- </v-col>
+    </v-row> -->
+  <!-- </v-container> -->
+<!-- </template> -->
+
+<br />
+<br />
+<br />
+<br />
+
     <h3 class="heading-3">
           Tableau Projects
         </h3>
@@ -162,6 +193,11 @@ export default {
 .heading-viz {
   color: #2c8591;
   font-size: 40px;
+}
+
+.powerbi-iframe-container {
+  position: relative;
+  width: 100%;
 }
 
 .iframe-container {
