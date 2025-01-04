@@ -8,12 +8,32 @@
       <br />
     </h2>
     <br />
+        <h3 class="heading-3">
+          City of Syracuse Sanitation - PowerBI Dashboard
+        </h3>
+        <br />
+        <p>
+          &bull;  To help provide a real-time view into department metrics, collaborated with department heads and User Interface Designer to create a dashboard.<br />
+          &bull; Used PowerBI for Data Visualization, along with Dax queries.<br />
+          &bull; Used Figma to create mockups to share with executive decision makers for their input and feedback.
+        </p>
+        <br />
+        <div class="powerbi-iframe-container">
+          <iframe title="Illegal Setouts Dashboard" width="100%" height="100%" src="https://app.powerbigov.us/view?r=eyJrIjoiMGI5OGQ5Y2YtZDA2Ny00ZmY4LTk4NmEtZDlhM2I3MzU4ODRkIiwidCI6ImUwYWFjNjk1LWZkNWItNDViMi1iZWQzLWQ5M2VjNWMwYzZjZSJ9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+</v-col>
+</v-row>
+<br />
+<br />
+<br />
+<br />
 
+    <v-row>
+      <v-col>
     <h3 class="heading-3">
           Tableau Projects
         </h3>
         <br />
-
         <button>
         <div class="text-button">
           <v-btn
@@ -41,11 +61,6 @@
     <LowerFooter msg="test" />
   </v-col>
 </v-row>
-
-<br />
-<br />
-<br />
-<br />
 
 <v-row>
       <v-col>
@@ -82,7 +97,6 @@
     </v-row>
   </v-container>
 </template>
-
     <br>
     <br>
     <br>
@@ -106,9 +120,6 @@
         </button>
       </v-col>
     </v-row>
-
-   
-
     <br />
     <br />
     <br />
@@ -164,40 +175,35 @@ export default {
   font-size: 40px;
 }
 
+.powerbi-iframe-container {
+  height: 800px;
+}
+
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 .responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
-}
-
-/* Adjust the height for larger screens */
-@media (min-width: 600px) {
-  .iframe-container {
-    padding-top: 90%; /* This makes the height around 800px for wider screens */
-  }
+  height: 1100px;
+  display: block;
 }
 
 /* Adjust the height for smaller screens */
 @media (max-width: 599px) {
-  .iframe-container {
-    padding-top: 125%; /* This increases the height for smaller screens */
+    .iframe-container {
+      padding-top: 0%; /* This increases the height for smaller screens */
+    }
+    /* Changes observable iframe to decrease in height on mobile */
+    .responsive-iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+  }
+    /* Changes powerBI iframe to decrease in height on mobile */
+  .powerbi-iframe-container {
+    height: 300px;
   }
 }
-/*
-.carousel-container {
-  position: relative;
-  padding-bottom: 0px;
-  padding-top: 5px;
-  height: 700;
-  overflow: hidden;
-}
-*/
 </style>
