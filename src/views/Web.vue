@@ -23,7 +23,7 @@
           >
         </p>
         <br />
-        <button>
+        <!-- <button>
           <div class="text-button">
             <v-btn
               href="https://spotify-music-explorer.netlify.app/"
@@ -38,20 +38,22 @@
               Launch Spotify Music Explorer
             </v-btn>
           </div>
-        </button>
+        </button> -->
       </v-col>
     </v-row>
 
     <v-row>
       <v-col>
-        <a href="https://jason-spotify.netlify.app/" target="_blank"
-          ><v-img
+        <!-- <a href="https://jason-spotify.netlify.app/" target="_blank"
+          > -->
+          <v-img
             :src="require('../assets/Spotify-App2.svg')"
             alt="Screenshot of a Spotify web app."
             class="my-3"
             contain
             width="100%"
-        /></a>
+        />
+      <!-- </a> -->
       </v-col>
     </v-row>
     <br />
