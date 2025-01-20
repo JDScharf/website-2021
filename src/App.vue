@@ -1,57 +1,64 @@
 <template>
   <div id="app">
-      <v-app-bar
-        color="primary"
+    <v-app-bar color="primary">
+      <template v-slot:img="{ props }">
+        <v-img
+          v-bind="props"
+          gradient="to top right, rgba(19,84,122,.5), rgba(128,208,199,.8)"
+        ></v-img>
+      </template>
+
+      <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer">
+      </v-app-bar-nav-icon>
+
+      <v-toolbar-title to="/"
+        ><router-link to="/" style="text-decoration: none; color: inherit;"
+          >Jason Scharf</router-link
+        ></v-toolbar-title
       >
-        <template v-slot:img="{ props }">
-          <v-img
-            v-bind="props"
-            gradient="to top right, rgba(19,84,122,.5), rgba(128,208,199,.8)"
-          ></v-img>
-        </template>
 
-        <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer">
-        </v-app-bar-nav-icon>
-
-        <v-toolbar-title to="/"><router-link to="/" style="text-decoration: none; color: inherit;">Jason Scharf</router-link></v-toolbar-title>
-
-        <v-spacer></v-spacer>
-        <v-btn to="/contact">Get in Touch</v-btn>
-      </v-app-bar>
+      <v-spacer></v-spacer>
+      <v-btn
+        to="/contact"
+        depressed
+        elevation="10"
+        color="#2c8591"
+        raised
+        rounded
+        dark
+      >
+        Get in Touch
+      </v-btn>
+    </v-app-bar>
 
     <div>
-        <v-navigation-drawer 
-          v-model="drawer"
-          absolute
-          temporary
-          @click.stop="drawer = !drawer">
-
-          <v-list
-          nav
-          dense>
-
+      <v-navigation-drawer
+        v-model="drawer"
+        absolute
+        temporary
+        @click.stop="drawer = !drawer"
+      >
+        <v-list nav dense>
           <v-list-item class="px-2">
-        <v-list-item-avatar>
-          <v-img src="./assets/jason-head-min.jpg"></v-img>
-        </v-list-item-avatar>
+            <v-list-item-avatar>
+              <v-img src="./assets/jason-head-min.jpg"></v-img>
+            </v-list-item-avatar>
 
-        <v-list-item-title>Jason Scharf</v-list-item-title>
+            <v-list-item-title>Jason Scharf</v-list-item-title>
 
-        <v-btn
-          icon
-          @click.stop="drawer = !drawer"
-        >
-          <v-icon>mdi-chevron-left</v-icon>
-        </v-btn></v-list-item>
+            <v-btn icon @click.stop="drawer = !drawer">
+              <v-icon>mdi-chevron-left</v-icon>
+            </v-btn></v-list-item
+          >
 
-              <v-list-item to="/">About Me</v-list-item>
-              <v-list-item to="/web">Web Development</v-list-item>
-              <v-list-item to="/data-projects">Data Projects</v-list-item>
-              <v-list-item to="/data-viz">Data Visualizations</v-list-item>
-              <v-list-item to="/GIS">GIS Projects</v-list-item>
-          </v-list>
-        </v-navigation-drawer>
-      </div>
+          <v-list-item to="/">About Me</v-list-item>
+          <v-list-item to="/web">Web Development</v-list-item>
+          <v-list-item to="/data-projects">Data Projects</v-list-item>
+          <v-list-item to="/data-viz">Data Visualizations</v-list-item>
+          <v-list-item to="/GIS">GIS Projects</v-list-item>
+        </v-list>
+      </v-navigation-drawer>
+    </div>
     <v-app>
       <v-main>
         <router-view />
@@ -59,10 +66,9 @@
     </v-app>
 
     <v-card class="flex">
-    <LowerFooter />
+      <LowerFooter />
     </v-card>
   </div>
-
 </template>
 
 <script>
@@ -71,13 +77,13 @@ import LowerFooter from "@/components/LowerFooter.vue";
 export default {
   name: "App",
   components: {
-    LowerFooter
-},
+    LowerFooter,
+  },
   data: () => ({
     drawer: false,
-    group: null    
+    group: null,
   }),
-}
+};
 </script>
 
 <style lang="scss">
