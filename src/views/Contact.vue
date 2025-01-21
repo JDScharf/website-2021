@@ -4,6 +4,8 @@
     <v-row>
       <v-col>
         <h2 class="heading-2">Free Project Consultation</h2>
+        <br>
+        <br>
         <form
           action="https://formspree.io/f/mdkkqyov"
           method="POST"
@@ -51,28 +53,29 @@
             <v-row>
               <v-col>
                 <h3>How soon do you need this project done?</h3>
-                <!-- <v-radio-group v-model="urgency" row>
-                <v-radio label="Not Urgent" value="1"></v-radio>
-                <v-radio label="Slightly Urgent" value="2"></v-radio>
-                <v-radio label="Neutral" value="3"></v-radio>
-                <v-radio label="Urgent" value="4"></v-radio>
-                <v-radio label="Very Urgent" value="5"></v-radio>
-              </v-radio-group> -->
+                <v-radio-group v-model="urgency" row>
+                <v-radio label="Not Urgent" value="Not Urgent"></v-radio>
+                <v-radio label="Slightly Urgent" value="Slightly Urgent"></v-radio>
+                <v-radio label="Neutral" value="Neutral"></v-radio>
+                <v-radio label="Urgent" value="Urgent"></v-radio>
+                <v-radio label="Very Urgent" value="Very Urgent"></v-radio>
+              </v-radio-group>
 
-                <template>
-                  <div>
                     <!-- <div class="text-caption">Tick labels</div> -->
-
+                    <!-- <v-card-text>
                     <v-slider
+                    label="How Urgent"
                       v-model="urgency"
                       :tick-labels="tickLabels"
-                      :max="2"
+                      max="2"
                       step="1"
                       ticks="always"
                       tick-size="3"
                     ></v-slider>
-                  </div>
-                </template>
+                    </v-card-text>
+                    <div>
+        Selected Urgency: {{ tickLabels[urgency] }}
+      </div> -->
               </v-col>
             </v-row>
 
@@ -103,8 +106,8 @@
             <!-- Submit Button -->
             <v-row>
               <v-col class="text-center">
+                <button type="submit">
                 <v-btn
-                  type="submit"
                   depressed
                   elevation="10"
                   color="#2c8591"
@@ -113,9 +116,11 @@
                   dark
                   >Submit
                 </v-btn>
+              </button>
               </v-col>
             </v-row>
         </form>
+
         <br />
         <br />
       </v-col>
@@ -123,26 +128,12 @@
   </v-container>
 </template>
 
-<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGmcocMdkdgOSTk7tw17K0Ci3rZxsILwzW4eNXrhKceEp6Kg/viewform?embedded=true" width="640" height="1600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
-
 <script>
 // import LowerFooter from "@/components/LowerFooter.vue";
 
 export default {
   data() {
     return {
-      formData: {
-        name: '',
-        email: '',
-        message: ''
-      }
-      // value: 0,
-      urgency: 0,
-      tickLabels: [
-        'Not Urgent',
-        'Neutral',
-        'Urgent'
-    ],
       components: {
         // LowerFooter
       },
@@ -157,7 +148,7 @@ export default {
 } */
 
 #consultation-form {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
