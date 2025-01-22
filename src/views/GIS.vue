@@ -4,6 +4,10 @@
 
     <v-row>
       <v-col>
+        <h2 class="heading-viz">
+          Geospatial (GIS) Projects
+        </h2>
+
         <br />
         <h3 class="heading-3">
           City of Syracuse - Look Before You Rent
@@ -58,10 +62,6 @@
 
     <v-row>
       <v-col>
-        <h2 class="heading-viz">
-          Geospatial (GIS) Projects
-        </h2>
-        <br />
         <h3 class="heading-3">
           Syracuse Interactive Crime Map
         </h3>
