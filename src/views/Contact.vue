@@ -6,7 +6,9 @@
         <h2 class="heading-2">Free Project Consultation</h2>
         <br>
         <br>
-        <form
+        <v-card 
+        id="contact-card">
+        <form id="contact-form"
           action="https://formspree.io/f/mdkkqyov"
           method="POST"
         >
@@ -120,6 +122,7 @@
               </v-col>
             </v-row>
         </form>
+      </v-card>
 
         <br />
         <br />
@@ -147,10 +150,17 @@ export default {
   height: 1300;
 } */
 
-#consultation-form {
-  max-width: 600px;
-  margin: 0 auto;
+#contact-card {
+  max-width: 700px;
+  padding: 30px;
+  margin: auto;
   font-family: "Roboto", sans-serif;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #424242;
+  background-color: #fffbf5;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h3 {

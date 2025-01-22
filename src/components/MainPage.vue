@@ -11,7 +11,7 @@
         </h1>
         <br />
         <h2 class="heading-job-title">
-          Data Program Manager
+          Civic Software Developer
         </h2>
         <br />
       </v-col>
@@ -59,7 +59,7 @@
 
     <v-row>
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFE0B2">
+        <v-card id="service-card">
           <v-img
             :src="require('../assets/icons/app-development.png')"
             alt="Image of a computer icon"
@@ -94,7 +94,7 @@
       </v-col>
 
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFE0B2">
+        <v-card id="service-card">
           <v-img
             :src="require('../assets/icons/data-management.png')"
             alt="Image of a computer icon"
@@ -128,7 +128,7 @@
       </v-col>
 
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFE0B2">
+        <v-card id="service-card">
           <v-img
             :src="require('../assets/icons/data-viz.png')"
             alt="Image of a computer icon"
@@ -162,7 +162,7 @@
       </v-col>
 
       <v-col>
-        <v-card class="service-card" shaped outlined color="#FFE0B2">
+        <v-card id="service-card">
           <v-img
             :src="require('../assets/icons/map-256.png')"
             alt="Image of a computer icon"
@@ -245,8 +245,14 @@
   border: 1px solid rgb(1, 2, 1);
   max-width: 100px;
 }
-.service-card {
+#service-card {
   padding: 10%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #424242;
+  background-color: #fffbf5;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .heading-name {
