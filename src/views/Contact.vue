@@ -29,19 +29,19 @@
               <v-col>
                 <h3>Project(s) you would like help with</h3>
                 <v-checkbox
-                  label="Data Visualization"
-                  value="data-viz"
-                  name="data-viz"
-                ></v-checkbox>
-                <v-checkbox
-                  label="Data Analysis"
-                  value="analysis"
-                  name="analysis"
+                  label="Data Management"
+                  value="data-management"
+                  name="data-management"
                 ></v-checkbox>
                 <v-checkbox
                   label="Map Creation (GIS)"
                   value="gis"
                   name="gis"
+                ></v-checkbox>
+                <v-checkbox
+                  label="Data Visualization"
+                  value="data-viz"
+                  name="data-viz"
                 ></v-checkbox>
                 <v-checkbox
                   label="Web Design & Development"
@@ -52,32 +52,14 @@
             </v-row>
 
             <!-- Urgency Scale -->
-            <v-row>
-              <v-col>
+            <v-row justify="center">
+              <v-col cols="12" md="8" class="text-center">
                 <h3>How soon do you need this project done?</h3>
-                <v-radio-group v-model="urgency" row>
+                <v-radio-group v-model="urgency" row class="justify-center d-flex">
                 <v-radio label="Not Urgent" value="Not Urgent"></v-radio>
                 <v-radio label="Slightly Urgent" value="Slightly Urgent"></v-radio>
-                <v-radio label="Neutral" value="Neutral"></v-radio>
-                <v-radio label="Urgent" value="Urgent"></v-radio>
                 <v-radio label="Very Urgent" value="Very Urgent"></v-radio>
               </v-radio-group>
-
-                    <!-- <div class="text-caption">Tick labels</div> -->
-                    <!-- <v-card-text>
-                    <v-slider
-                    label="How Urgent"
-                      v-model="urgency"
-                      :tick-labels="tickLabels"
-                      max="2"
-                      step="1"
-                      ticks="always"
-                      tick-size="3"
-                    ></v-slider>
-                    </v-card-text>
-                    <div>
-        Selected Urgency: {{ tickLabels[urgency] }}
-      </div> -->
               </v-col>
             </v-row>
 

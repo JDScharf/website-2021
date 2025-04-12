@@ -7,25 +7,23 @@
         <br />
         <br />
         <h1 class="heading-name">
-          Jason Scharf
+          Civic Data Development
         </h1>
         <br />
-        <h2 class="heading-job-title">
-          Civic Software Developer
-        </h2>
+        <!-- <h2 class="heading-job-title">
+          Civic Data Development
+        </h2> -->
         <br />
       </v-col>
 
       <v-col id="middle-column" :align-self="center">
         <v-card
-          id="rounded-card"
           class="justify-center"
           max-height="350"
           min-height="350"
         >
           <v-img
-            :src="require('../assets/jason-WS-v2.jpeg')"
-            class="rounded-img"
+            :src="require('../assets/cnydataventures_logo_large.png')"
             max-height="350"
             max-width="350"
           />
@@ -33,14 +31,8 @@
       </v-col>
 
       <v-col class="text-right">
-        <h3 class="subheading font-weight-regular">
-          I am a hard worker, who enjoys learning and facing new challenges. I
-          am skilled at managing multiple projects, meeting deadlines, while
-          always striving to provide excellent customer service to clients and
-          stakeholders. <br />
-          <br />
-          I would love to help you or your team increase their ability to
-          obtain, manage, and get insights from your data!
+        <h3 class="heading-3">
+          We help cities improve their civic open data to serve their communities with real-time data that drives action and insights!
         </h3>
       </v-col>
     </v-row>
@@ -58,7 +50,7 @@
     <template> </template>
 
     <v-row>
-      <v-col>
+      <!-- <v-col>
         <v-card id="service-card">
           <v-img
             :src="require('../assets/icons/app-development.png')"
@@ -91,7 +83,7 @@
             </button>
           </div>
         </v-card>
-      </v-col>
+      </v-col> -->
 
       <v-col>
         <v-card id="service-card">
@@ -121,40 +113,6 @@
                 dark
               >
                 View Data Projects
-              </v-btn>
-            </div>
-          </button>
-        </v-card>
-      </v-col>
-
-      <v-col>
-        <v-card id="service-card">
-          <v-img
-            :src="require('../assets/icons/data-viz.png')"
-            alt="Image of a computer icon"
-            class="my-3"
-            contain
-            width="100%"
-            max-height="250px"
-          />
-          <br />
-          <h3 class="heading-3">
-            Data Visualizations
-          </h3>
-
-          <br />
-          <button>
-            <div class="text-button">
-              <v-btn
-                to="/data-viz"
-                depressed
-                elevation="10"
-                color="#2c8591"
-                raised
-                rounded
-                dark
-              >
-                View Visualizations
               </v-btn>
             </div>
           </button>
@@ -194,6 +152,42 @@
           </button>
         </v-card>
       </v-col>
+
+
+      <v-col>
+        <v-card id="service-card">
+          <v-img
+            :src="require('../assets/icons/data-viz.png')"
+            alt="Image of a computer icon"
+            class="my-3"
+            contain
+            width="100%"
+            max-height="250px"
+          />
+          <br />
+          <h3 class="heading-3">
+            Data Visualizations
+          </h3>
+
+          <br />
+          <button>
+            <div class="text-button">
+              <v-btn
+                to="/data-viz"
+                depressed
+                elevation="10"
+                color="#2c8591"
+                raised
+                rounded
+                dark
+              >
+                View Visualizations
+              </v-btn>
+            </div>
+          </button>
+        </v-card>
+      </v-col>
+
     </v-row>
 
     <br />

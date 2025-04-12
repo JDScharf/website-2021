@@ -25,7 +25,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Jason Scharf Designs</strong>
+        <strong> &#169; CNY Data Ventures - {{ new Date().getFullYear() }}</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -36,9 +36,7 @@ export default {
   data: () => ({
     icons: [
       { name: "mdi-cellphone", link: "sms:3154474501"},
-      { name: "mdi-email", link: "mailto:jasonscharf3@gmail.com" },
-      { name: "mdi-github", link: "https://github.com/jdscharf" },
-      { name: "mdi-linkedin", link: "https://www.linkedin.com/in/jason-d-scharf" }
+      { name: "mdi-email", link: "mailto:jason@nydataventures.com" }
     ]
   })
 };

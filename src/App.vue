@@ -13,7 +13,7 @@
 
       <v-toolbar-title to="/"
         ><router-link to="/" style="text-decoration: none; color: inherit;"
-          >Jason Scharf</router-link
+          >CNY Data Ventures</router-link
         ></v-toolbar-title
       >
 
@@ -41,21 +41,22 @@
         <v-list nav dense>
           <v-list-item class="px-2">
             <v-list-item-avatar>
-              <v-img src="./assets/jason-head-min.jpg"></v-img>
+              <v-img src="./assets/cnydataventures_logo_large.png"></v-img>
             </v-list-item-avatar>
 
-            <v-list-item-title>Jason Scharf</v-list-item-title>
+            <v-list-item-title>CNY Data Ventures</v-list-item-title>
 
             <v-btn icon @click.stop="drawer = !drawer">
               <v-icon>mdi-chevron-left</v-icon>
             </v-btn></v-list-item
           >
 
-          <v-list-item to="/">About Me</v-list-item>
-          <v-list-item to="/web">Web Development</v-list-item>
+          <v-list-item to="/">About Us</v-list-item>
           <v-list-item to="/data-projects">Data Projects</v-list-item>
-          <v-list-item to="/data-viz">Data Visualizations</v-list-item>
           <v-list-item to="/GIS">GIS Projects</v-list-item>
+          <v-list-item to="/data-viz">Data Visualizations</v-list-item>
+          <v-list-item to="/team">Our Team</v-list-item>
+          <v-list-item to="/contact">Get In Touch</v-list-item>
         </v-list>
       </v-navigation-drawer>
     </div>

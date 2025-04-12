@@ -89,31 +89,6 @@
       </v-col>
     </v-row>
 
-    <v-row>
-      <v-col>
-        <h3 class="heading-3">
-          Massachussets Roads & Parks Map
-        </h3>
-        <br />
-        <p>
-          &bull; Made as part of ESRI's Cartography course.<br />
-          &bull; Created in ArcGIS Pro.
-        </p>
-
-        <v-img
-          :src="require('../assets/MassLayout.jpg')"
-          alt="Image of a map of Massachussets"
-          class="my-3"
-          contain
-          width="100%"
-          max-height="1500px"
-        />
-      </v-col>
-    </v-row>
-    <br />
-    <br />
-    <br />
-
     <button>
       <div class="text-button">
         <v-btn
