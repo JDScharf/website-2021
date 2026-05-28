@@ -7,6 +7,58 @@
         <br />
 
         <h3 class="heading-3">
+          Slavery in the Age of Abolition - React.JS App
+        </h3>
+        <br />
+
+        <p>
+          &bull; Created a website for a grant-funded research project helping
+          Dr. Tessa Murphy share her research and analysis into enslaved peoples
+          in the British Carribean.<br />
+          &bull; Site was built in React and included Tableau visualizations
+          embedded, as well as API calls to the Tableau data, to pull
+          information into metric cards and to interact with the dashboard using
+          buttons on the website, adding interactivity.<br />
+        </p>
+        <br />
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col>
+        <v-img
+          :src="require('../assets/slavery-in-the-age-of-abolition.png')"
+          alt="Screenshot of a website."
+          class="my-3"
+          contain
+          width="100%"
+        />
+        <!-- </a> -->
+      </v-col>
+      <button>
+        <div class="text-button">
+          <v-btn
+            href="https://slavery-in-age-of-abolition.netlify.app/"
+            target="_blank"
+            depressed
+            elevation="10"
+            color="#2c8591"
+            raised
+            rounded
+            dark
+          >
+            View Site
+          </v-btn>
+        </div>
+      </button>
+    </v-row>
+    <br />
+    <br />
+    <br />
+
+    <v-row>
+      <v-col>
+        <h3 class="heading-3">
           Spotify Music Explorer - Vue.JS App
         </h3>
         <br />
@@ -16,7 +68,8 @@
           different musical artists based on a genre or artist they are
           interested in.<br />
           &bull; Made using Spotify's API, client side authentication, and
-          RESTful API calls.<br />
+          RESTful API calls. Not currently working due to Spotify's API
+          discontinuing the get recommendations API endpoint.<br />
           &bull; Code can be viewed at:
           <a href="https://www.github.com/JDScharf/spotify-app" target="_blank"
             >github.com/JDScharf/spotify-app</a
@@ -46,14 +99,14 @@
       <v-col>
         <!-- <a href="https://jason-spotify.netlify.app/" target="_blank"
           > -->
-          <v-img
-            :src="require('../assets/Spotify-App2.svg')"
-            alt="Screenshot of a Spotify web app."
-            class="my-3"
-            contain
-            width="100%"
+        <v-img
+          :src="require('../assets/Spotify-App2.svg')"
+          alt="Screenshot of a Spotify web app."
+          class="my-3"
+          contain
+          width="100%"
         />
-      <!-- </a> -->
+        <!-- </a> -->
       </v-col>
     </v-row>
     <br />
@@ -115,7 +168,7 @@
     <br />
     <br />
 
-    <v-row>
+    <!-- <v-row>
       <v-col>
         <h3 class="heading-3">
           Stonethrowers of Syracuse Video Game — C#/Unity3D Project
@@ -133,21 +186,6 @@
             >github.com/JDScharf/Stonethrowers</a
           >
         </p>
-        <!-- <button>
-        <div class="text-right">
-          <v-btn
-            @click="muteGame()"
-            depressed
-            elevation="10"
-            color="#2c8591"
-            raised
-            rounded
-            dark
-          >
-            Mute Sound
-          </v-btn>
-        </div>
-      </button> -->
         <br />
       </v-col>
     </v-row>
@@ -183,7 +221,7 @@
     </v-row>
     <br />
     <br />
-    <br />
+    <br /> -->
 
     <br />
     <button>

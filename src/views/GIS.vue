@@ -92,6 +92,48 @@
     <v-row>
       <v-col>
         <h3 class="heading-3">
+          East of Nowhere - Map Area Search Tool (Mapbox.js Library)
+        </h3>
+        <br />
+        <p>
+          &bull; Created to help Central New York cartography business.<br />
+          &bull; Created using HTML, CSS, JavaScript, and Maxbox.js library.
+        </p>
+        <button>
+          <div class="text-button">
+            <v-btn
+              href="https://jdscharf.github.io/eastofnowhere/eastofnowhere-search.html"
+              target="_blank"
+              depressed
+              elevation="10"
+              color="#2c8591"
+              raised
+              rounded
+              dark
+            >
+              View Map Selection Tool
+            </v-btn>
+          </div>
+        </button>
+
+        <v-img
+          :src="require('../assets/east-of-nowhere-search.png')"
+          alt="Image of a digital search map"
+          class="my-3"
+          contain
+          width="100%"
+          max-height="1500px"
+        />
+      </v-col>
+    </v-row>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- <v-row>
+      <v-col>
+        <h3 class="heading-3">
           Massachussets Roads & Parks Map
         </h3>
         <br />
@@ -112,7 +154,7 @@
     </v-row>
     <br />
     <br />
-    <br />
+    <br /> -->
 
     <button>
       <div class="text-button">
