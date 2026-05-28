@@ -20,7 +20,22 @@
           information into metric cards and to interact with the dashboard using
           buttons on the website, adding interactivity.<br />
         </p>
-        <br />
+        <button>
+          <div class="text-button">
+            <v-btn
+              href="https://slavery-in-age-of-abolition.netlify.app/"
+              target="_blank"
+              depressed
+              elevation="10"
+              color="#2c8591"
+              raised
+              rounded
+              dark
+            >
+              View Site
+            </v-btn>
+          </div>
+        </button>
       </v-col>
     </v-row>
 
@@ -35,22 +50,6 @@
         />
         <!-- </a> -->
       </v-col>
-      <button>
-        <div class="text-button">
-          <v-btn
-            href="https://slavery-in-age-of-abolition.netlify.app/"
-            target="_blank"
-            depressed
-            elevation="10"
-            color="#2c8591"
-            raised
-            rounded
-            dark
-          >
-            View Site
-          </v-btn>
-        </div>
-      </button>
     </v-row>
     <br />
     <br />
